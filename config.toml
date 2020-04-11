@@ -1,7 +1,7 @@
 baseurl = "https://www.makraz.com"
 title = "Hamza Makraz"
 
-theme = "coder"
+theme = "coders"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
