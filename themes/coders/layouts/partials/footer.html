@@ -12,12 +12,13 @@
         {{ now.Year }}
         {{ with .Site.Params.Author }} {{ . }} {{ end }}
       {{ end }}
+
       {{ if not .Site.Params.hideCredits }}
-        {{ if not .Site.Params.hideCopyright }} · {{ end }}
+        {{ if not .Site.Params.hideCopyright }} <br> {{ end }}
         {{ i18n "built_with" }} <a href="{{ .Site.Params.HugoLink }}" rel="noopener noreferrer" target="_blank">{{ .Site.Params.HugoIcon | safeHTML }}</a>,
-        {{ i18n "powered_by" }} <a href="https://github.com/luizdepra/hugo-coder/" rel="noopener noreferrer" target="_blank">Coder</a>,
+        {{ i18n "powered_by" }} <a href="https://github.com/luizdepra/hugo-coder/" rel="noopener noreferrer" target="_blank">|Coder|</a>,
         {{ $github := index (.Site.Params.social) 0 }}
-        Open sourced on <a href="{{ $github.url }}" rel="noopener noreferrer" target="_blank"><i class="{{ $github.icon }}"></i></a>
+        Open sourced on <a href="{{ $github.url }}" rel="noopener noreferrer" target="_blank" ><i class="{{ $github.icon }}"></i></a>
         and deployed on <a href="https://www.zeit.co/?ref=makraz.com" rel="noopener noreferrer" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEzIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjEwMC45MyUiIHkxPSIxODEuMjgzJSIgeDI9IjQxLjc2OSUiIHkyPSIxMDAlIiBpZD0iYSI+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGRiIgb2Zmc2V0PSIwJSIvPjxzdG9wIG9mZnNldD0iMTAwJSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik0zNTAgMTUwbDU3IDEwMEgyOTN6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjkzIC0xNTApIiBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=" alt="Zeit" style="width:16px;"></a>
       {{ end }}
       {{ if .Site.Params.commit }}

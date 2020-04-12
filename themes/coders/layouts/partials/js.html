@@ -12,6 +12,8 @@
 
         changeMode(container, input, lightButton, darkButton);
 
+        input.parent().show();
+
         button.on('click', function() {
             input.prop("checked", !input.is(':checked'));
             changeMode(container, input, lightButton, darkButton);
