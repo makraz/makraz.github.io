@@ -1,9 +1,9 @@
 <div style="float:right;margin-top:20px;margin-left:15px;">
     {{ $dark := "0" }}
     {{ if eq .Site.Params.colorscheme "dark" }}
-        {{ $dark = "1" }}
+        {{ $dark = "checked" }}
     {{ end }}
-    <input type="checkbox" id="night-mode-toggle" style="display:none;" value="{{ $dark }}">
+    <input type="checkbox" id="night-mode-toggle" style="display:none;" {{ $dark }}>
 
     <button type="button" style="background-color:transparent;border:unset;cursor:pointer;" class="night-mode-toggle" id="light-mode">
         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiPjxwYXRoIGQ9Ik00NTkuOCAzNDcuM2ExNiAxNiAwIDAgMC0xNy44LTVBMTc2LjIgMTc2LjIgMCAwIDEgMjA4LjcgMTc2YzAtNTguMyAyOC44LTExMi43IDc3LTE0NS40YTE2IDE2IDAgMCAwLTYuNi0yOUMyNzEuNi4zIDI2NCAwIDI1Ni42IDBjLTEzMi4zIDAtMjQwIDEwNy42LTI0MCAyNDBzMTA3LjcgMjQwIDI0MCAyNDBjODQgMCAxNjAuNS00Mi43IDIwNC40LTExNC4yIDMuNi01LjggMy0xMy4yLTEuMi0xOC41eiIvPjwvc3ZnPg==" alt="light">
