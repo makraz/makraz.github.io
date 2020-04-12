@@ -24,3 +24,6 @@ other = "Powered by"
 
 [built_with]
 other = "Built with"
+
+[made_by]
+other = "Made by"

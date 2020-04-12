@@ -23,3 +23,8 @@ other = "Vous pouvez revenir à <a href=\"{{ . }}\">l'accueil</a>."
 [powered_by]
 other = "Propulsé par"
 
+[built_with]
+other = "Construit avec"
+
+[made_by]
+other = "Faite par"

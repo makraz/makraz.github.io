@@ -1,4 +1,19 @@
+{{ $img := (.Resources.ByType "image").GetMatch "images/*cover*" }}
+
 <li>
-  <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
   <a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a>
+
+  {{ with $img }}
+    <img src="{{ .Permalink }}" alt="{{ $.Title }}" class="cover">
+  {{ end }}
+  
+  <!-- <a href="{{ .Params.ExternalLink | default .RelPermalink }}" class="image featured">{{ if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}" alt="{{ .Title }}"></a>{{ end }} -->
+  
+  <div>
+    <small class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</small>
+
+    {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+    
+    <div class="clearfix"></div>
+  </div>
 </li>
