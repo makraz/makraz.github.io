@@ -95,7 +95,7 @@
   {{ else if eq .Site.Params.colorscheme "auto" }}
     {{ $csClass = "colorscheme-auto" }}
   {{ end }}
-  <body class="{{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}">
+  <body class="{{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}" id="bigbody">
     <main class="wrapper">
       {{ partial "header.html" . }}
 
@@ -105,6 +105,8 @@
 
       {{ partial "footer.html" . }}
     </main>
+
+    {{ partial "js.html" . }}
 
     {{ template "_internal/google_analytics.html" . }}
 
