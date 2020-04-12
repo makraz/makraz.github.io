@@ -2,6 +2,6 @@
     "version": 2,
     "routes": [
       { "src": "/(.*)", "dest": "/$1" },
-      { "src": "/.*", "status": 404, "dest": "/404" }
+      { "src": "/(.*)", "status": 404, "dest": "/404" }
     ]
   }
