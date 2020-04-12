@@ -3,34 +3,44 @@
 
 <!-- nightmode-toggle -->
 <script>
-    $(document).ready(function() {
-        var input = $('#night-mode-toggle');
-        var button = $('.night-mode-toggle');
-        var lightButton = $('#light-mode');
-        var darkButton = $('#dark-mode');
-        var container = $('#bigbody');
+  $(document).ready(function () {
+    var input = $("#night-mode-toggle"),
+      button = $(".night-mode-toggle"),
+      lightButton = $("#light-mode"),
+      darkButton = $("#dark-mode"),
+      container = $("#bigbody"),
+      menuToggle = $("#menu-toggle"),
+      navMenu = $("#navigation-list");
 
-        changeMode(container, input, lightButton, darkButton);
+    changeMode(container, input, lightButton, darkButton);
 
-        input.parent().show();
+    input.parent().show();
 
-        button.on('click', function() {
-            input.prop("checked", !input.is(':checked'));
-            changeMode(container, input, lightButton, darkButton);
-        });
+    button.on("click", function () {
+      input.prop("checked", !input.is(":checked"));
+      changeMode(container, input, lightButton, darkButton);
     });
 
-    function changeMode(container, input, lightButton, darkButton) {
-        if (input.is(':checked')) {
-            container.addClass("colorscheme-dark");
-            container.removeClass("colorscheme-light");
-            lightButton.hide();
-            darkButton.show();
+    menuToggle.on("click", function () {
+        if (navMenu.css("display").toLowerCase() == "none") {
+            navMenu.show();
         } else {
-            container.addClass("colorscheme-light");
-            container.removeClass("colorscheme-dark");
-            lightButton.show();
-            darkButton.hide();
+            navMenu.hide();
         }
+    });
+  });
+
+  function changeMode(container, input, lightButton, darkButton) {
+    if (input.is(":checked")) {
+      container.addClass("colorscheme-dark");
+      container.removeClass("colorscheme-light");
+      lightButton.hide();
+      darkButton.show();
+    } else {
+      container.addClass("colorscheme-light");
+      container.removeClass("colorscheme-dark");
+      lightButton.show();
+      darkButton.hide();
     }
+  }
 </script>

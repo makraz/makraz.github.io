@@ -4,13 +4,13 @@
 
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
     
-    <input type="checkbox" id="menu-toggle" />
+    <!-- <input type="checkbox" id="menu-toggle" /> -->
     
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <label class="menu-button float-right" for="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></label>
 
     {{ partial "toggle.html" . }}
 
-    <ul class="navigation-list">
+    <ul class="navigation-list" id="navigation-list">
       {{ with .Site.Menus.main}}
         {{ range sort . }}
           <li class="navigation-item">
@@ -30,6 +30,7 @@
               </li>
               {{ $node.Scratch.Set "separator" false }}
             {{ end }}
+
             <li class="navigation-item">
               <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
             </li>
