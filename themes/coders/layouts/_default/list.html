@@ -6,6 +6,17 @@
 
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
+
 {{ define "content" }}
-  {{ partial "list.html" . }}
+<section class="container list">
+    <h1 class="title">{{ .Title }}</h1>
+
+    <ul>
+        {{- range where .Paginator.Pages "Draft" false -}}
+        {{- .Render "li" -}}
+        {{- end -}}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+</section>
 {{ end }}
