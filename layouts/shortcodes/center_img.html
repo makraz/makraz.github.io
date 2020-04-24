@@ -1,0 +1,7 @@
+<p align="center" style="text-align:center">
+    {{ if .IsNamedParams }}
+    <img src="{{.Get `src`}}" alt="{{.Get `alt`}}" title="{{.Get `title`}}">
+    {{ else }}
+    <img src="{{.Get 0}}" alt="{{.Get 1}}" title="{{.Get 2}}">
+    {{ end }}
+</p>
