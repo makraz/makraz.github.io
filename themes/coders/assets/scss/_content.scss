@@ -66,6 +66,17 @@
     padding: 0;
   }
 
+  img {
+    margin: 0 auto;
+    border-radius: 5px;
+
+    @at-root {
+      p {
+        text-align: center !important;
+      }
+    }
+  }
+
   figcaption p {
     text-align: center;
     font-style: italic;
