@@ -13,6 +13,8 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+googleAnalytics = "UA-120924762-1"
+
 disqusShortname = "makraz-com"
 
 [params]
