@@ -18,7 +18,7 @@ disqusShortname = "makraz-com"
 [params]
     author = "Hamza Makraz"
     description = "Hamza Makraz's personal website"
-    keywords = "blog,coding,developer,software,software wngineer,open source"
+    keywords = "blog,coding,developer,software,software engineer,open source"
     info = "Software Engineer and Coffee lover"
     avatarurl = "images/avatar.png"
 #    gravatar = "makraz.hamza@gmail.com"
@@ -91,13 +91,13 @@ disqusShortname = "makraz-com"
 #    icon = "fab fa-medium"
 #    weight = 5
 #    url = "https://medium.com/@johndoe"
-#[[params.social]]
-#    name = "RSS"
-#    icon = "fas fa-rss"
-#    weight = 6
-#    url = "https://myhugosite.com/index.xml"
-#    rel = "alternate"
-#    type = "application/rss+xml"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 6
+    url = "https://makraz.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
 
 [languages]
@@ -121,41 +121,46 @@ disqusShortname = "makraz-com"
 #            weight = 3
 #            url = "projects/"
 
+#            [[languages.en.menu.main]]
+#            name = "Projects"
+#            weight = 4
+#            url = "projects/"
+
             [[languages.en.menu.main]]
             name = "Contact"
             weight = 5
             url = "contact/"
-
-
-    [languages.pt-br]
-        languagename = "French"
-        title = "Hamza Makraz"
-
-        [languages.pt-br.params]
-            author = "Hamza Makraz"
-            info = "Software Engineer e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
-
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "A propos"
-            weight = 1
-            url = "about/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-#            [[languages.pt-br.menu.main]]
-#            name = "Projetos"
-#            weight = 3
-#            url = "projects/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Contacte moi"
-            weight = 5
-            url = "contact/"
+#
+#
+#    [languages.fr]
+#        languagename = "French"
+#        title = "Hamza Makraz"
+#
+#        [languages.fr.params]
+#            author = "Hamza Makraz"
+#            info = "Ingénieur logiciel et amateur de café"
+#            description = "Site personnel de Hamza Makraz"
+#            keywords = "blog, codeur, développeur, logiciel, ingénieur developement web, open source"
+##            footercontent = "Coloque algum texto aqui."
+#
+#        [languages.fr.menu]
+#
+#            [[languages.fr.menu.main]]
+#            name = "A propos"
+#            weight = 1
+#            url = "about/"
+#
+#            [[languages.fr.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
+#
+##            [[languages.fr.menu.main]]
+##            name = "Projets"
+##            weight = 3
+##            url = "projects/"
+#
+#            [[languages.fr.menu.main]]
+#            name = "Contacte moi"
+#            weight = 5
+#            url = "contact/"
