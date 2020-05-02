@@ -1,11 +1,11 @@
 ---
 draft: false
-title: "The Static Site Generator Hugo"
-slug: "the-static-site-generator-hugo"
-description: "Introduction about the static website generator Hugo"
-featured_image: "Logo_of_Hugo_the_static_website_generator.png"
+title: "Install packages globally without sudo on Linux / MacOS"
+slug: "npm-global-without-sudo"
+description: "Install packages globally without sudo on Linux / MacOS"
+featured_image: "logo_of_npm.png"
 date: 2020-04-11T18:54:08+01:00
-categories: ["Development"]
+categories: ["Development", "Linux", "MacOS"]
 tag: ["npm", "linux", "mac-os"]
 ---
 
@@ -22,13 +22,13 @@ For that we will follow these steps:
 ###### 1. Create a directory for global packages
 
 ```sh
-mkdir "~/.npm/packages"
+mkdir "~/.npm_packages"
 ```
 
 ###### 2. Tell `npm` where to store globally installed packages
 
 ```sh
-npm config set prefix "~/.npm/packages"
+npm config set prefix "~/.npm_packages"
 ```
 
 ###### 3. Ensure `npm` will find installed binaries and man pages
@@ -36,7 +36,7 @@ npm config set prefix "~/.npm/packages"
 Add the following to your `.bashrc` / `.zshrc`:
 
 ```sh
-NPM_PACKAGES="~/.npm/packages"
+NPM_PACKAGES="~/.npm_packages"
 
 export PATH="$PATH:$NPM_PACKAGES/bin"
 
