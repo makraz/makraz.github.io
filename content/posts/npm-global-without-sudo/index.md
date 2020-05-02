@@ -14,7 +14,8 @@ tag: ["npm", "linux", "mac-os"]
 By default `npm` installs packages locally in the folder nodes_modules within your projects.
 But sometimes with need to install packages globally for command-line as example. 
 For Linux / MacOS users npm will ask you to run it with elevated privileges,
-which mean use the command `sudo` to be able to install globally (`sudo npm install -g <package>`) and this is may create permissions issue for many users.
+which mean use the command `sudo` to be able to install globally (`sudo npm install -g <package>`) 
+and this may create permission(s) issue(s) for many users.
 However there is a way to install packages globally for a given user without `sudo`.
 
 For that we will follow these steps:  
