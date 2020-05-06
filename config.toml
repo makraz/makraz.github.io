@@ -101,7 +101,6 @@ disqusShortname = "makraz-com"
     rel = "alternate"
     type = "application/rss+xml"
 
-
 [languages]
     [languages.en]
         languagename = "English"
@@ -166,3 +165,8 @@ disqusShortname = "makraz-com"
 #            name = "Contacte moi"
 #            weight = 5
 #            url = "contact/"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
