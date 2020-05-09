@@ -10,7 +10,7 @@
         {{ template "_internal/opengraph.html" . }}
         {{ if isset .Site.Params "og_image" }}
         {{ with .Site.Params.og_image }}
-        <meta property="og:image" content="{{ . | relURL }}" />
+        <meta property="og:image" content="{{ . | absURL }}" />
         <meta property="og:image:secure_url" content="{{ . | absURL }}" />
         {{ end }}
         {{ end }}
