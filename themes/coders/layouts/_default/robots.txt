@@ -1,1 +1,2 @@
+Sitemap: {{ .Permalink }}/sitemap.xml
 User-agent: *
