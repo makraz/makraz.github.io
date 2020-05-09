@@ -5,8 +5,8 @@ slug: "npm-global-without-sudo"
 description: "Install packages globally without sudo on Linux / MacOS"
 featured_image: "logo_of_npm.png"
 date: 2020-04-11T18:54:08+01:00
-categories: ["Development", "Linux", "MacOS"]
-tag: ["npm", "linux", "mac-os"]
+categories: ["Tutorials", "Development", "Linux", "MacOS"]
+tag: ["Tutorials", "npm", "linux", "mac-os"]
 ---
 
 # `npm`  -- Install packages globally without sudo on Linux / MacOS
