@@ -17,6 +17,13 @@ googleAnalytics = "UA-120924762-1"
 
 disqusShortname = "makraz-com"
 
+enableRobotsTXT = "true"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
     author = "Hamza Makraz"
     description = "Hamza Makraz's personal website"
@@ -165,8 +172,3 @@ disqusShortname = "makraz-com"
 #            name = "Contacte moi"
 #            weight = 5
 #            url = "contact/"
-
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
