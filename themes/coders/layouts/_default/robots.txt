@@ -1,2 +1,2 @@
-Sitemap: {{ .Permalink }}/sitemap.xml
+Sitemap: {{ .Site.BaseURL }}/sitemap.xml
 User-agent: *
