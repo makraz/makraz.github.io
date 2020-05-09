@@ -8,6 +8,19 @@
 <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
 <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
+{{ if .IsHome }}
+{{ if isset .Site.Params "og_image" }}
+{{ with .Site.Params.og_image }}
+<meta property="twitter:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ else }}
+{{ if isset .Params "og_image" }}
+{{ with .Params.og_image }}
+<meta property="twitter:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ end }}
 
 <!-- OG data -->
 <meta property="og:locale" content="en_US" />
