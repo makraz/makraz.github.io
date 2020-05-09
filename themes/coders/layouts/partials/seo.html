@@ -1,0 +1,83 @@
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
+<meta name="robots" content="{{ .Site.Params.robots }}"/>
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+<meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
+<meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
+
+<!-- OG data -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" property="og:title">
+<meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" property="og:description">
+{{ if .IsHome }}
+{{ if isset .Site.Params "og_image" }}
+{{ with .Site.Params.og_image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta property="og:image:secure_url" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ else }}
+{{ if isset .Params "og_image" }}
+{{ with .Params.og_image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta property="og:image:secure_url" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
+{{ if isset .Params "date" }}<meta property="article:published_at" content="{{ time .Date }}" />{{ end }}
+
+<!-- JSON-LD -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ .Permalink }}",
+        "name": "{{ .Site.Title }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Params.author }}"
+        },
+        "description": "{{ .Site.Params.description }}",
+    }
+</script>
+{{ end }}
+{{ if .IsPage }}
+<script type="application/ld+json">
+    {{ if eq .Section "post" }}
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ .Title }}",
+        "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
+        "url": "{{ .Permalink }}",
+        "datePublished": "{{ time .Date }}",
+        "description": "{{ .Description }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Params.author }}"
+        }
+    }
+    {{ else }}
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ .Permalink }}",
+        "name": "{{ .Title }}",
+        "author": {
+            "@type": "Person",
+            "name": "{ .Site.Params.author }}"
+        },
+        "description": "{ .Site.Params.description }}",
+    }
+    {{ end }}
+</script>
+{{ end }}
