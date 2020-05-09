@@ -1,5 +1,5 @@
 baseurl = "https://www.makraz.com"
-title = "Hamza Makraz - Software Engineer and Coffee lover"
+title = "Hamza Makraz - Software Engineer"
 
 theme = "coders"
 
@@ -25,7 +25,7 @@ enableRobotsTXT = "true"
   priority = 0.5
 
 [params]
-    author = "Hamza Makraz"
+    author = "Hamza Makraz - Software Engineer"
     description = "Software Engineer, CyberSec enthusiast and interested in the tech in general"
     keywords = "blog,coding,developer,software,software engineer,open source"
     info = "Software Engineer, CyberSec enthusiast and interested the tech in general"
