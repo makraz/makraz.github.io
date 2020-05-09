@@ -11,7 +11,7 @@
         {{ if and .Permalink .Params.og_image }}
         <meta property="og:image" content="{{ .Permalink }}{{ .Params.og_image | relURL }}"/>
         <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
-        {{ else }}
+        {{ end }}
         {{ template "_internal/twitter_cards.html" . }}
         {{ if .Permalink }}<base href="{{ .Permalink }}">{{ end }}
 
