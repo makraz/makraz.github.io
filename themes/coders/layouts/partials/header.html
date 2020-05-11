@@ -1,6 +1,6 @@
 <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">{{ if isset .Site.Params "brandLogo" }}{{ .Site.Params.BrandLogo }}{{ else }}{{ .Site.Params.BrandText }}{{ end }}</a>
 
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
     
