@@ -1,31 +1,22 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
-    '/css/coder.min.css',
-    '/css/coder-dark.min.css',
-    'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    // '/style.css',
+    // '/script.js',
     // '/search.json',
     '/manifest.json',
     '/favicon.png',
 ];
 
 const OFFLINE_CACHE_FILES = [
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
-    '/css/coder.min.css',
-    '/css/coder-dark.min.css',
-    'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    // '/style.css',
+    // '/script.js',
     // '/offline/index.html',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
-    '/css/coder.min.css',
-    '/css/coder-dark.min.css',
-    'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    // '/style.css',
+    // '/script.js',
     '/404.html',
 ];
 
