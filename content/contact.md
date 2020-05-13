@@ -3,4 +3,4 @@ title = "Contact"
 slug = "contact"
 +++
 
-Follow me, @hamza_makraz and send me an email at [contact@makraz.com](mailto:contact@makraz.com).
+Follow me, and/or send me a message at [@h_makoxx](https://twitter.com/h_makoxx).
