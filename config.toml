@@ -83,7 +83,7 @@ enableRobotsTXT = "true"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/hamza-makraz"
+    url = "https://github.com/h-makoxx"
 #[[params.social]]
 #    name = "Gitlab"
 #    icon = "fab fa-gitlab"
@@ -93,7 +93,7 @@ enableRobotsTXT = "true"
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/hamza_makraz"
+    url = "https://twitter.com/h_makoxx"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
@@ -105,9 +105,14 @@ enableRobotsTXT = "true"
 #    weight = 5
 #    url = "https://medium.com/@johndoe"
 [[params.social]]
+   name = "DEV Community"
+   icon = "fab fa-dev"
+   weight = 6
+   url = "https://dev.to/h_makoxx"
+[[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
-    weight = 6
+    weight = 7
     url = "https://makraz.com/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
@@ -133,14 +138,9 @@ enableRobotsTXT = "true"
 #            weight = 3
 #            url = "projects/"
 
-#            [[languages.en.menu.main]]
-#            name = "Projects"
-#            weight = 4
-#            url = "projects/"
-
             [[languages.en.menu.main]]
             name = "Contact"
-            weight = 5
+            weight = 4
             url = "contact/"
 #
 #
