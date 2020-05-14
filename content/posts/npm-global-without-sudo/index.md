@@ -5,11 +5,11 @@ slug: "npm-global-without-sudo"
 description: "Install packages globally without sudo on Linux / MacOS"
 featured_image: "logo_of_npm.png"
 date: 2020-04-11T18:54:08+01:00
-categories: ["Tutorials", "Development", "Linux", "MacOS"]
-tag: ["Tutorials", "npm", "linux", "mac-os"]
+categories: ["Tip", "Development", "Linux", "MacOS"]
+tag: ["tip", "npm", "linux", "macOS"]
 ---
 
-# `npm`  -- Install packages globally without sudo on Linux / MacOS
+## `npm`  -- Install packages globally without sudo on Linux / MacOS
 
 By default `npm` installs packages locally in the folder nodes_modules within your projects.
 But sometimes with need to install packages globally for command-line as example. 
