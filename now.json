@@ -12,14 +12,14 @@
   ],
   "headers": [
     {
-      "src": "/images/(.*)",
+      "source": "/images/(.*)",
       "headers": {
         "key": "Cache-Control",
         "value": "public, max-age=604800, must-revalidate"
       }
     },
     {
-      "src": "/css/(.*)",
+      "source": "/css/(.*)",
       "headers": {
         "key": "Cache-Control",
         "value": "public, max-age=604800, must-revalidate"
