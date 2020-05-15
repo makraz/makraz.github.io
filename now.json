@@ -1,7 +1,29 @@
 {
   "version": 2,
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
+    }
+  ],
+  "headers": [
+    {
+      "src": "/images/(.*)",
+      "headers": {
+        "key": "Cache-Control",
+        "value": "public, max-age=604800, must-revalidate"
+      }
+    },
+    {
+      "src": "/css/(.*)",
+      "headers": {
+        "key": "Cache-Control",
+        "value": "public, max-age=604800, must-revalidate"
+      }
+    }
   ]
 }
