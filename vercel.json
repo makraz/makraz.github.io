@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "routes": [
     {
       "handle": "filesystem"
@@ -8,26 +8,16 @@
       "src": "/(.*)",
       "status": 404,
       "dest": "/404.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/images/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=604800, must-revalidate"
-        }
-      ]
     },
     {
-      "source": "/css/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=604800, must-revalidate"
-        }
-      ]
+      "src": "/images/(.*)",
+      "headers": { "cache-control": "s-maxage=604800" },
+      "dest": "/images/$1"
+    },
+    {
+      "src": "/css/(.*)",
+      "headers": { "cache-control": "s-maxage=604800" },
+      "dest": "/css/$1"
     }
   ]
 }
