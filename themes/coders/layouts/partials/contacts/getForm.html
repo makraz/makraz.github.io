@@ -52,6 +52,11 @@
     color: #FFFFFF;
 }
 
+.contact .contact-form .form-group,
+.contact .contact-form .form-actions {
+    margin-top: 25px;
+}
+
 .contact .contact-form .form-group>input,
 .contact .contact-form .form-group>textarea {
     width: 100%;
@@ -76,13 +81,16 @@
         <div class="alert alert-error">An error occurred please try again later.</div>
     </div>
     <div class="form-group">
-        <input type="text" name="name" placeholder="Your name" required>
+        <label for="name">Full name</label>
+        <input type="text" name="name" id="name" required>
     </div>
     <div class="form-group">
-        <input type="email" name="email" placeholder="Your email" required>
+        <label for="email">Your email</label>
+        <input type="email" name="email" id="email" required>
     </div>
     <div class="form-group">
-        <textarea name="message" placeholder="Your message" rows="3" required></textarea>
+        <label for="message">Your message</label>
+        <textarea name="message" id="message" rows="3" required></textarea>
     </div>
     <div class="form-actions">
         <button type="submit" class="btn btn-send">Send</button>
