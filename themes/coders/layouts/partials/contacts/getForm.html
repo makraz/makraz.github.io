@@ -1,0 +1,91 @@
+{{- if or (.Params.getForm) (.Site.Params.getForm) -}}
+<style type="text/css">
+.content {
+    flex-direction: column;
+}
+
+.container.contact {
+    width: 50%;
+}
+
+.contact .contact-form {
+    margin-top: 25px;
+}
+
+.contact .alert-success,
+.contact .alert-error {
+    display: none;
+    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.contact .alert-success.is-active,
+.contact .alert-error.is-active {
+    display: block;
+}
+
+.colorscheme-dark .contact .alert-success.is-active {
+    color: #FFFFFF;
+    background: rgb(13, 56, 35);
+}
+
+.colorscheme-dark .contact .alert-error.is-active {
+    color: #FFFFFF;
+    background: rgb(250, 77, 119);
+}
+
+.colorscheme-light .contact .alert-success.is-active {
+    color: #000000;
+    background: #E1F8ED;
+}
+
+.colorscheme-light .contact .alert-error.is-active {
+    color: #FFFFFF;
+    background: rgb(250, 77, 119);
+}
+
+.btn {}
+
+.btn.btn-send {
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+
+.contact .contact-form .form-group>input,
+.contact .contact-form .form-group>textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.colorscheme-light .contact .contact-form .form-group>input,
+.colorscheme-light .contact .contact-form .form-group>textarea {
+    border-color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 90% !important;
+    }
+}
+</style>
+<form action="https://getform.io/f/{{ .Site.Params.getForm }}" method="POST" id="ajaxForm" class="contact-form">
+    <div class="alert">
+        <div class="alert alert-success">We received your submission, thank you!</div>
+        <div class="alert alert-error">An error occurred please try again later.</div>
+    </div>
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your email" required>
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your message" rows="3" required></textarea>
+    </div>
+    <div class="form-actions">
+        <button type="submit" class="btn btn-send">Send</button>
+    </div>
+</form>
+{{- end -}}

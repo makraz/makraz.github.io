@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 slug = "contact"
+contactForm = "true"
 +++
 
-Follow me, and/or send me a message at [@h_makoxx](https://twitter.com/h_makoxx).
+Follow me, at [@h_makoxx](https://twitter.com/h_makoxx) and/or send me a message here:

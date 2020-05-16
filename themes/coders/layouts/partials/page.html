@@ -7,3 +7,9 @@
     {{ .Content }}
   </article>
 </section>
+
+{{- if or (.Params.contactForm) (.Site.Params.contactForm) -}}
+<section class="container contact">
+	{{ partial "contacts/getForm.html" . }}
+</section>
+{{- end -}}
