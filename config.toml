@@ -27,9 +27,9 @@ enableRobotsTXT = "true"
 
 [params]
     author = "Hamza Makraz - Software Engineer"
-    description = "Software Engineer, CyberSec enthusiast and interested in the tech in general"
+    description = "Web developer, mostly focused on PHP and Python and Tech enthusiast"
     keywords = "blog,coding,developer,software,software engineer,open source"
-    info = "Software Engineer, CyberSec enthusiast and interested the tech in general"
+    info = "Web developer, mostly focused on PHP and Python and Tech enthusiast"
     og_image = "images/hamza-makraz.jpg"
     avatarurl = "images/hamza-makraz.jpg"
 #    gravatar = "makraz.hamza@gmail.com"
