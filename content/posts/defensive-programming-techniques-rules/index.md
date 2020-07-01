@@ -16,6 +16,7 @@ tag:
 - development
 - defensive programming
 - Clean code
+draft: true
 
 ---
 After a duration from learning programming language of caurse this duration change from one to other but it's end by asking our self few questions like:
