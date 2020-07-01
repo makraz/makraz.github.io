@@ -75,4 +75,4 @@ we have this figure Compare the feedback cycle of various development techniques
 
 it is clear that over time the cost of a bug increases exponentially depending on the development techniques followed.
 
-a little comparison between TDD and code review or traditional system test
+a little comparison between TDD and code review or traditional system test.
