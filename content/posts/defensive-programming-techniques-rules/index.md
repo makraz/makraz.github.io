@@ -16,7 +16,6 @@ tag:
 - development
 - defensive programming
 - Clean code
-draft: true
 
 ---
 After a duration from learning programming language of course this duration change from one to other but it's end by asking our self few questions like:
@@ -67,4 +66,12 @@ The solution is to make our code readable, understandable, extendable and help o
 * Code will be Readable
 * Prevent bugs
 
-## how?
+let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.
+
+![](http://www.ambysoft.com/artwork/comparingTechniques.jpg)
+
+we have this figure Compare the feedback cycle of various development techniques.
+
+it is clear that over time the cost of a bug increases exponentially depending on the development techniques followed.
+
+a little comparison between TDD and code review or traditional system test
