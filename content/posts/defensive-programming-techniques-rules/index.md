@@ -70,6 +70,8 @@ let's try to go deep and see the cube from another side, from the point of view 
 
 ![Comparing the feedback cycle of various development techniques.](/uploads/comparingtechniques.jpg "Comparing the feedback cycle of various development techniques.")
 
+         **_Comparing the feedback cycle of various development techniques._**
+
 we have this figure Compare the feedback cycle of various development techniques.
 
 it is clear that over time the cost of a bug increases exponentially depending on the development techniques followed.
