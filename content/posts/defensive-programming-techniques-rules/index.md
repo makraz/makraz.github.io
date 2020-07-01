@@ -70,7 +70,7 @@ let's try to go deep and see the cube from another side, from the point of view 
 
 ![Comparing the feedback cycle of various development techniques.](/uploads/comparingtechniques.jpg "Comparing the feedback cycle of various development techniques.")
 
-      **_Comparing the feedback cycle of various development techniques._**
+          **_Comparing the feedback cycle of various development techniques._**
 
 If we do a simple comparison between TDD and code review or traditional system test. It is clear that over time the cost of a bug increases exponentially depending on the development techniques followed. so sure the ideal case to have the following chart:
 
