@@ -72,20 +72,16 @@ let's try to go deep and see the cube from another side, from the point of view 
 
       **_Comparing the feedback cycle of various development techniques._**
 
- 
-
 If we do a simple comparison between TDD and code review or traditional system test. It is clear that over time the cost of a bug increases exponentially depending on the development techniques followed. so sure the ideal case to have the following chart:
 
 ![Kent Beck's cost of change curve.](http://AgileModeling.com/images/costOfChangeBeck.gif "Kent Beck's cost of change curve.")
 
-                                        **_Kent Beck's cost of change curve._**
+                                    **_Kent Beck's cost of change curve._**
 
 and for that we can talk about 3 points:
 
-![](https://lh5.googleusercontent.com/I4WffbfHNP_PZuVnb3iybfmYpqv8Dt3pqM-_I4ZBQbUEQyor71Y5C2WGkSCcpQwNGk2XX1fvZqYfGz_BucCu0MqY7awH6koBSH6cgmvxcLl4OhYJQ3ms6Ba84NUX3YjnzvMmmWAc3CQ =718px;x508px;)
+![](/uploads/picture1.png)
 
 * Safety => Predictable vs avoiding unexpected problems.
-
-
 * Readable => the source code must be readable and understandable, we are talking about formatting, documentation and more things.
 * High quality => reduction in the number of bugs and software problems with the tests.
