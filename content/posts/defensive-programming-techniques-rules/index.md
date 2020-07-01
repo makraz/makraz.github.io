@@ -69,7 +69,7 @@ The solution is to make our code readable, understandable, extendable and help o
 
 let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.
 
-![](/uploads/comparingtechniques.jpg)
+![Comparing the feedback cycle of various development techniques.](/uploads/comparingtechniques.jpg "Comparing the feedback cycle of various development techniques.")
 
 we have this figure Compare the feedback cycle of various development techniques.
 
