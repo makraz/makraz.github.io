@@ -39,7 +39,7 @@ _Level: **intermediate**_
 ## Prerequisites
 
 * Learn an OOP Language
-* having idea about design partterns
+* having idea about design patterns
 
 ## Introduction
 
