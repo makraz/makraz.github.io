@@ -30,6 +30,8 @@ In my search I find lot of ways to do this so today I would like to share with y
 
 This is the **part 1** of the **Defensive Programming: Rules and Techniques** series.
 
+_PS: We will use PHP as our **Programming Language** for this series, so all examples here or at my repository  will be written with **PHP version 7.x**._
+
 _Level: **intermediate**_
 
 ***
@@ -43,9 +45,7 @@ _Level: **intermediate**_
 
 This topic is subjective because it's depend on Programming Language, the context and Framework, so we can say this post will be an introduction the approach in the general case.
 
-## What, Why and How?
-
-### What 🤔?
+## What 🤔?
 
 If we ask Wikipedia about [Defensive programming](Defensive programming) the first lines be:
 
@@ -57,8 +57,14 @@ If we ask Wikipedia about [Defensive programming](Defensive programming) the fir
 >
 > Defensive programming is when programming purposefully predict possible points of failure.
 
-### Why 🤔?
+## Why?
 
 From this definition it's clear that is a way to make our code more better and not even that but helping our team to understand the code and specially to not break it 😅, and most time this happen if we are teaming with juniors, in this case the code review take more time and we could have lot of _back and forth._
 
-the solution is to make our code readable, understandable, extendable and it can prevent bugs.
+The solution is to make our code readable, understandable, extendable and help on debugging. we can conclude that we have 3 point as an **objectives of** **Defensive Programming**:
+
+* Source code quality
+* Code will be Readable
+* Prevent bugs
+
+## how?
