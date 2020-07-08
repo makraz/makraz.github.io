@@ -50,7 +50,7 @@ This topic is subjective because it's depend on Programming Language, the contex
 
 ## What 🤔?
 
-If we ask Wikipedia about [Defensive programming](Defensive programming) the first lines be:
+If we ask Wikipedia about Defensive programming, it provides us with following lines :
 
 > **Defensive programming** is an approach to improve software and source code, in terms of:
 >
@@ -60,21 +60,27 @@ If we ask Wikipedia about [Defensive programming](Defensive programming) the fir
 >
 > Defensive programming is when programming purposefully predict possible points of failure.
 
+=> Therefore, **Defensive programming** is to make the safe from the unexpected issues which mean less bugs later and in the same time having a readable code.
+
 ## Why?
 
-From this definition it's clear that is a way to make our code more better and not even that but helping our team to understand the code and specially to not break it 😅, and most time this happen if we are teaming with juniors, in this case the code review take more time and we could have lot of _back and forth._
+Accordingly, it's clear that not only does Defensive Programming improve our code, becoming soundly established, but it also helps people with whom we are teaming up understand the code, so it will not to be broken down / avoiding any unexpected turn down 😅. This happens pretty much often when we are teaming up with juniors, in this case the code review take much time and we could have many rounds of **_back and forth_**.
 
-The solution is to make our code readable, understandable, extendable and help on debugging. we can conclude that we have 3 point as an **objectives of** **Defensive Programming**:
+The solution is to make our code readable, understandable, extendable and help on debugging. In a nutshell, we have 3 points as an **objective** concerning **Defensive Programming**:
 
-* Source code quality
-* Code will be Readable
-* Prevent bugs
+* Source code quality.
+* Code will be Readable.
+* Prevent bugs.
 
-let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.
+let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.let's try to go deep and see the cube from another side, from the point of view of a company, the cost of a project is one of the most important criteria and it can impact everything in the future of any project or event on the future of the company in some cases. we are agree that the technical choice it's depend on the context of each company or team if we talk about large structures.
+
+Let's try to take a closer look at this issue from another angle, from a company prospective. The cost of a project is one of the most important criteria to be considered as it can have a tremendous impact on numerous aspects in the long run of any project or even on the future of a company in some cases. In parallel with the cost, we have the technical choice, which depends on the context of each company or team if we are talking about large structures.
+
+Here’s a figure to illustrate the cost / development techniques:
 
 ![Comparing the feedback cycle of various development techniques.](/uploads/comparingtechniques.jpg "Comparing the feedback cycle of various development techniques.")
 
-          **_Comparing the feedback cycle of various development techniques._**
+      **_Comparing the feedback cycle of various development techniques._**
 
 If we do a simple comparison between TDD and code review or traditional system test. It is clear that over time the cost of a bug increases exponentially depending on the development techniques followed. so sure the ideal case to have the following chart:
 
