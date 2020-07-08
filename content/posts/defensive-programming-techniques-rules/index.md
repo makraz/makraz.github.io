@@ -88,7 +88,7 @@ This is the ideal case to have the following chart:
 
 ![Kent Beck's cost of change curve.](http://AgileModeling.com/images/costOfChangeBeck.gif "Kent Beck's cost of change curve.")
 
-                                    **_Kent Beck's cost of change curve._**
+                              **_Kent Beck's cost of change curve._**
 
 and for that we can talk about 3 points:
 
