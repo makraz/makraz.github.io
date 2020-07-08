@@ -16,7 +16,6 @@ tag:
 - development
 - defensive programming
 - Clean code
-draft: true
 
 ---
 After a certain period of learning a programming language, of course this period of time can vary from one person to another, it usually ends by asking ourselves few questions such as :
@@ -92,9 +91,9 @@ So, our role is to try to avoid figure 1 and opt for figure 2, keeping always in
 
 ![](/uploads/picture1.png)
 
-* Safety          => Predictable vs avoiding unexpected problems.
-* Readable     => the source code must be readable and understandable, we are talking about formatting, documentation and more things.
-* High quality => reduction in the number of bugs and software problems with the tests.
+* Safety           => Predictable vs avoiding unexpected problems.
+* Readable      => the source code must be readable and understandable, we are talking about formatting, documentation and more things.
+* High quality  => reduction in the number of bugs and software problems with the tests.
 
 Before ending this part, we are going to point out a very important law -in my opinion- which is Murphy's Law:
 
@@ -104,4 +103,4 @@ Before ending this part, we are going to point out a very important law -in my o
 
 In other words, If there's more than one way to do a job and one of those ways will end in disaster, then somebody will do it that way.
 
-In the next part of this series, we'll talk about some rules to follow. See you next time!
+In the next part of this series, we'll tackle some rules to follow. Thank you all for reading this article, and See you next time 😉.
