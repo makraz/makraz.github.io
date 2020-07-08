@@ -41,7 +41,7 @@ _Level: **intermediate**_
 
 ## Prerequisites
 
-* Learn an OOP Language
+* Learn an O.O.P Language
 * having idea about design patterns
 
 ## Introduction
@@ -88,7 +88,7 @@ At this spot shines the role of applying **Defensive Programming** as an approac
 
                               **_Kent Beck's cost of change curve._**
 
-So, our role is to try to avoid the figure 1 and closer to figure 2 and for that we can talk about 3 points:
+So, our role is to try to avoid figure 1 and opt for figure 2, keeping always in mind the three main points:
 
 ![](/uploads/picture1.png)
 
