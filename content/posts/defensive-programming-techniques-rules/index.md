@@ -96,12 +96,12 @@ So, our role is to try to avoid figure 1 and opt for figure 2, keeping always in
 * Readable     => the source code must be readable and understandable, we are talking about formatting, documentation and more things.
 * High quality => reduction in the number of bugs and software problems with the tests.
 
-Before ending the first part, we going throw on a very important law in my view which is Murphy's Law:
+Before ending this part, we are going to point out a very important law -in my opinion- which is Murphy's Law:
 
 > Anything that can possibly go wrong, does.
 >
 >                                                                              –John Sack
 
-We can say it in other way, If there's more than one way to do a job and one of those ways will end in disaster, then somebody will do it that way.
+In other words, If there's more than one way to do a job and one of those ways will end in disaster, then somebody will do it that way.
 
 In the next part of this series, we'll talk about some rules to follow. See you next time!
