@@ -82,7 +82,9 @@ Here’s a figure to illustrate the cost / development techniques:
 
       **_Comparing the feedback cycle of various development techniques._**
 
-If we do a simple comparison between TDD and code review or traditional system test. It is clear that over time the cost of a bug increases exponentially depending on the development techniques followed. so sure the ideal case to have the following chart:
+If we make a simple comparison between TDD and code review or traditional system test, it is quite obvious that over time the cost of a bug increases exponentially depending on the development techniques.
+
+This is the ideal case to have the following chart:
 
 ![Kent Beck's cost of change curve.](http://AgileModeling.com/images/costOfChangeBeck.gif "Kent Beck's cost of change curve.")
 
