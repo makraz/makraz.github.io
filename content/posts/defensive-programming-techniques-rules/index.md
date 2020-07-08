@@ -77,15 +77,15 @@ Here’s a figure to illustrate the cost / development techniques:
 
 ![Comparing the feedback cycle of various development techniques.](/uploads/comparingtechniques.jpg "Comparing the feedback cycle of various development techniques.")
 
-      **_Comparing the feedback cycle of various development techniques._**
+       **Comparing the feedback cycle of various development techniques.**
 
 If we make a simple comparison between **TDD** (**T**est **D**riven **D**evelopment) and code review or traditional system test, it is quite obvious that over time the cost of a bug increases exponentially depending on the development technique.
 
 At this spot shines the role of applying **Defensive Programming** as an approach, in the ideal case the cost of changes follow the below figure:
 
-![Kent Beck's cost of change curve.](http://AgileModeling.com/images/costOfChangeBeck.gif "Kent Beck's cost of change curve.")
+![Kent Beck's cost of change curve.](/uploads/costofchangebeck.gif "Kent Beck's cost of change curve.")
 
-                              **_Kent Beck's cost of change curve._**
+                          **Kent Beck's cost of change curve.**
 
 So, our role is to try to avoid figure 1 and opt for figure 2, keeping always in mind the three main points:
 
@@ -99,7 +99,7 @@ Before ending this part, we are going to point out a very important law -in my o
 
 > Anything that can possibly go wrong, does.
 >
->                                                                              –John Sack
+>                                                       –John Sack
 
 In other words, If there's more than one way to do a job and one of those ways will end in disaster, then somebody will do it that way.
 
