@@ -82,15 +82,15 @@ Here’s a figure to illustrate the cost / development techniques:
 
       **_Comparing the feedback cycle of various development techniques._**
 
-If we make a simple comparison between TDD and code review or traditional system test, it is quite obvious that over time the cost of a bug increases exponentially depending on the development techniques.
+If we make a simple comparison between **TDD** (**T**est **D**riven **D**evelopment) and code review or traditional system test, it is quite obvious that over time the cost of a bug increases exponentially depending on the development technique.
 
-This is the ideal case to have the following chart:
+At this spot shines the role of applying **Defensive Programming** as an approach, in the ideal case the cost of changes follow the below figure:
 
 ![Kent Beck's cost of change curve.](http://AgileModeling.com/images/costOfChangeBeck.gif "Kent Beck's cost of change curve.")
 
                               **_Kent Beck's cost of change curve._**
 
-and for that we can talk about 3 points:
+So, our role is to try to avoid the figure 1 and closer to figure 2 and for that we can talk about 3 points:
 
 ![](/uploads/picture1.png)
 
