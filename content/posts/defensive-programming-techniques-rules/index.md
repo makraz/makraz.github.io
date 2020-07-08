@@ -19,18 +19,21 @@ tag:
 draft: true
 
 ---
-After a duration from learning programming language of course this duration change from one to other but it's end by asking our self few questions like:
+After a certain period of learning a programming language, of course this period of time can vary from one person to another, it usually ends by asking ourselves few questions such as :
 
-* What is the best way to write the code ?
-* How I can make my code look better?
+• What is the best way to write code ?
 
-and more questions specially for people who try to start contribute on **Open Source**, or people working in project with seniors developers.
+• How can I make my code look better?
 
-In my search I find lot of ways to do this so today I would like to share with you what I learned about **Defensive Programming**; for a good time I start change my coding style and make it more **Defensive** 🛡️, now it's  my effective way to write the code.
+and more questions concerning people who try to start contributing on an Open Source or those working in a project with senior developers.
 
-This is the **part 1** of the **Defensive Programming: Rules and Techniques** series.
+In my search, I have found a number of approaches to improve my code one of which is the concept of **Defensive Programming**, so, today, I would like to share with you what I have learned about **Defensive Programming**.
 
-_PS: We will use PHP as our **Programming Language** for this series, so all examples here or at my repository  will be written with **PHP version 7.x**._
+For a considerable amount of time, I had been changing my coding style, making it more Defensive 🛡️ Now it has become quite a necessity when writing code.
+
+This is the 1st part of **Defensive Programming: Rules and Techniques** series.
+
+**_PS_**: We will be using PHP as our Programming Language for this series, so all examples here or at my repository are written using PHP version 7.x.
 
 _Level: **intermediate**_
 
