@@ -84,7 +84,7 @@ enableRobotsTXT = "true"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/h-makoxx"
+    url = "https://github.com/makraz"
 #[[params.social]]
 #    name = "Gitlab"
 #    icon = "fab fa-gitlab"
@@ -94,7 +94,7 @@ enableRobotsTXT = "true"
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/h_makoxx"
+    url = "https://twitter.com/h_makraz"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
@@ -104,12 +104,12 @@ enableRobotsTXT = "true"
 #    name = "Medium"
 #    icon = "fab fa-medium"
 #    weight = 5
-#    url = "https://medium.com/@johndoe"
+#    url = "https://medium.com/@makraz"
 [[params.social]]
    name = "DEV Community"
    icon = "fab fa-dev"
    weight = 6
-   url = "https://dev.to/h_makoxx"
+   url = "https://dev.to/h_makraz"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
