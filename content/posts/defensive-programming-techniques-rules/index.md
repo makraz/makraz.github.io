@@ -36,7 +36,7 @@ and more questions coming. There are many ways to classify programming approache
 
 ## Introduction
 
-This topic is subjective because it’s depend on Programming Language / Framework, the context and more the way of how you are thinking, so we can say this post will be an introduction the approach in the general case.
+This topic is subjective because it depends on Programming Language / Framework, the context and more the way of how you are thinking, so we can say this post will be an introduction the approach in the general case.
 
 ## What 🤔?
 
@@ -44,7 +44,7 @@ The definition of **Defensive programming** is inconsistent across different sou
 
 Let's detailed more this definition and start with the first point which is ensuring a code base correctness, that's the safely securing one’s code from any possible unexpected problem, bug-less reducing the number of bugs and readable mean making the source code comprehensible for any developer will work on this codebase.
 
-## Why?
+## Why 🧐?
 
 Accordingly, it’s clear that not only does **Defensive Programming** improve our code, becoming soundly established, but it also helps people with whom we are teaming up understand the code, so it will not be broken down / avoiding any unexpected turndown.
 
@@ -56,7 +56,7 @@ The solution is to make our code more d**efensive**. In a nutshell, we have 3 po
 * Readable.
 * Prevent bugs.
 
-This 3points are major criteria of the cost of a project, and they depend on the technical choice, which depends on the context of each company, team or freelancer.
+These 3 points are major criteria of the cost of a project, and they depend on the technical choice, which depends on the context of each company, team or freelancer.
 
 Here’s a figure to illustrate the cost/development techniques:
 
