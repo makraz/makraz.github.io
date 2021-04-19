@@ -241,344 +241,240 @@
       </section>
 
       <section class="mb-32 px-5 mx-auto">
-        <div
-          class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
-        >
-          <div
-            class="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full"
-          >
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
             <div
-              class="overflow-hidden transition-shadow duration-300 bg-white rounded"
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
             >
-              <a href="/" aria-label="Article"
-                ><img
-                  src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                  class="object-cover w-full h-64 rounded"
-                  alt=""
-              /></a>
-              <div class="p-5">
-                <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-                  13 Jul 2020
-                </p>
-                <a
-                  href="/"
-                  aria-label="Article"
-                  class="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-                  ><p class="text-2xl font-bold leading-5">
-                    Diving to the deep
-                  </p></a
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="https://dummyimage.com/720x400"
+                alt="blog"
+              />
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                <p class="mb-4 text-gray-700">
-                  Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                  consequuntur magni voluptatem doloremque.
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  The Catalyzer
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
                 </p>
-                <div class="flex space-x-4">
+                <div class="flex items-center flex-wrap">
                   <a
-                    href="/"
-                    aria-label="Likes"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
-                  >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="6 23 1 23 1 12 6 12"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <path
-                          d="M6,12,9,1H9a3,3,0,0,1,3,3v6h7.5a3,3,0,0,1,2.965,3.456l-1.077,7A3,3,0,0,1,18.426,23H6Z"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">7.4K</p>
+                    class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
                   </a>
-                  <a
-                    href="/"
-                    aria-label="Comments"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
                   >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="23 5 23 18 19 18 19 22 13 18 12 18"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <polygon
-                          points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></polygon>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">81</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="overflow-hidden transition-shadow duration-300 bg-white rounded"
-            >
-              <a href="/" aria-label="Article"
-                ><img
-                  src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-                  class="object-cover w-full h-64 rounded"
-                  alt=""
-              /></a>
-              <div class="p-5">
-                <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-                  4 Nov 2020
-                </p>
-                <a
-                  href="/"
-                  aria-label="Article"
-                  class="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-                  ><p class="text-2xl font-bold leading-5">
-                    Conquer the World
-                  </p></a
-                >
-                <p class="mb-4 text-gray-700">
-                  Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                  consequuntur magni voluptatem doloremque.
-                </p>
-                <div class="flex space-x-4">
-                  <a
-                    href="/"
-                    aria-label="Likes"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
                   >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="6 23 1 23 1 12 6 12"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <path
-                          d="M6,12,9,1H9a3,3,0,0,1,3,3v6h7.5a3,3,0,0,1,2.965,3.456l-1.077,7A3,3,0,0,1,18.426,23H6Z"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">7.4K</p>
-                  </a>
-                  <a
-                    href="/"
-                    aria-label="Comments"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
-                  >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="23 5 23 18 19 18 19 22 13 18 12 18"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <polygon
-                          points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></polygon>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">81</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="overflow-hidden transition-shadow duration-300 bg-white rounded"
-            >
-              <a href="/" aria-label="Article"
-                ><img
-                  src="https://images.pexels.com/photos/2123755/pexels-photo-2123755.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                  class="object-cover w-full h-64 rounded"
-                  alt=""
-              /></a>
-              <div class="p-5">
-                <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-                  28 Dec 2020
-                </p>
-                <a
-                  href="/"
-                  aria-label="Article"
-                  class="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-                  ><p class="text-2xl font-bold leading-5">
-                    Explore the beautiful
-                  </p></a
-                >
-                <p class="mb-4 text-gray-700">
-                  Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                  consequuntur magni voluptatem doloremque.
-                </p>
-                <div class="flex space-x-4">
-                  <a
-                    href="/"
-                    aria-label="Likes"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
-                  >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="6 23 1 23 1 12 6 12"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <path
-                          d="M6,12,9,1H9a3,3,0,0,1,3,3v6h7.5a3,3,0,0,1,2.965,3.456l-1.077,7A3,3,0,0,1,18.426,23H6Z"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">7.4K</p>
-                  </a>
-                  <a
-                    href="/"
-                    aria-label="Comments"
-                    class="flex items-start text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700 group"
-                  >
-                    <div class="mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        class="w-5 h-5 text-gray-600 transition-colors duration-200 group-hover:text-deep-purple-accent-700"
-                      >
-                        <polyline
-                          points="23 5 23 18 19 18 19 22 13 18 12 18"
-                          fill="none"
-                          stroke-miterlimit="10"
-                        ></polyline>
-                        <polygon
-                          points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-miterlimit="10"
-                        ></polygon>
-                      </svg>
-                    </div>
-                    <p class="font-semibold">81</p>
-                  </a>
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="mb-32">
-        <div
-          class="relative px-4 py-6 overflow-hidden sm:px-6 sm:py-8 lg:p-12 xl:p-16"
-        >
-          <h2
-            class="text-2xl font-semibold font-display text-white sm:text-3xl"
-          >
-            We&#x27;ve got more coming...
-          </h2>
-          <p class="mt-2 max-w-xl text-base text-gray-400">
-            Want to hear from us when we add new components? Sign up for our
-            newsletter and we&#x27;ll email you every time we release a new
-            batch of components.
-          </p>
-          <form>
-            <div class="sm:flex jusitfy-start mt-6">
-              <form class="flex w-full max-w-sm space-x-3">
-                <div class="relative">
-                  <input
-                    type="text"
-                    id='"form-subscribe-Subscribe'
-                    class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                    placeholder="Email"
-                  />
-                </div>
-                <button
-                  class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200"
-                  type="submit"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </form>
-          <div
-            class="hidden lg:block absolute inset-y-0 lg:left-2/3 xl:left-1/2 right-0"
-          >
-            <picture>
-              <source
-                srcSet="/undraw_Newsletter_re_wrob.svg"
-                type="image/svg"
-              />
-              <source srcSet="/undraw_Newsletter_re_wrob.svg" />
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
               <img
-                class="w-1/2 object-cover maw-w-44 mx-auto"
-                src="/undraw_Newsletter_re_wrob.svg"
-                alt="newsletter"
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="https://dummyimage.com/721x401"
+                alt="blog"
               />
-            </picture>
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                >
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  The 400 Blows
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                src="https://dummyimage.com/722x402"
+                alt="blog"
+              />
+              <div class="p-6">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                >
+                  CATEGORY
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Shooting Stars
+                </h1>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
+                <div class="flex items-center flex-wrap">
+                  <a
+                    class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >Learn More
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                      ></path>
+                      <circle cx="12" cy="12" r="3"></circle></svg
+                    >1.2K
+                  </span>
+                  <span
+                    class="text-gray-400 inline-flex items-center leading-none text-sm"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                      ></path></svg
+                    >6
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -877,5 +773,4 @@
 export default {}
 </script>
 
-<style></style>
 <style></style>
