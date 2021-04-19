@@ -4,11 +4,12 @@
       class="max-w-screen-xl mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
     >
       <a
+        href="/"
         class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
       >
         <img
           src="logo.png"
-          alt=""
+          alt="MAKRAZ"
           width="176"
           height="65"
           class="text-white bg-transparent p-2 rounded-full"
