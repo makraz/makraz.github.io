@@ -14,15 +14,12 @@
           height="65"
           class="text-white bg-transparent p-2 rounded-full"
         />
-        <!-- <span class="ml-3 text-xl">MAKRAZ</span> -->
       </a>
     </header>
     <div
       class="container md:h-screen h-full mx-auto flex flex-wrap content-around px-5"
     >
-      <section
-        class="mx-auto my-24 flex md:flex-row flex-col items-center"
-      >
+      <section class="mx-auto my-24 flex md:flex-row flex-col items-center">
         <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
