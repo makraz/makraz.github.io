@@ -1,4 +1,8 @@
+import getRoutes from './utils/getRoutes'
+import getSiteMeta from './utils/getSiteMeta'
+
 const plugin = require('tailwindcss/plugin')
+const meta = getSiteMeta()
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -6,13 +10,21 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: 'en-US',
+    },
     title: 'makraz.com',
     meta: [
       { charset: 'utf-8' },
+      // { name: 'HandheldFriendly', content: 'True' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      ...meta,
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { hid: 'canonical', rel: 'canonical', href: process.env.BASE_URL },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -34,11 +46,22 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
+    // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
+    // https://content.nuxtjs.org
     '@nuxt/content',
+    // https://sitemap.nuxtjs.org
+    '@nuxtjs/sitemap',
   ],
+
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        // const { text, minutes, time, words } = require('reading-time')(document.text)
+        document.readingTime = require('reading-time')(document.text)
+      }
+    },
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -52,6 +75,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  sitemap: {
+    hostname: process.env.BASE_URL,
+    routes() {
+      return getRoutes()
+    },
+  },
 
   // Router middlewares
   router: {

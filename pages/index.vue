@@ -1,8 +1,10 @@
 <template>
-  <div class="max-w-screen-xl mx-auto pt-24">
-    <section class="mb-32 mx-auto flex px-5 md:flex-row flex-col items-center">
+  <div class="max-w-screen-xl mt-16 mx-auto">
+    <section
+      class="mx-auto flex px-5 md:flex-row flex-col-reverse flex-col items-center"
+    >
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:flex-grow md:items-start md:text-left mt-12 md:mt-0 mb-16 md:mb-0 items-center text-center"
       >
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
           I'm Hamza Makraz
@@ -17,12 +19,12 @@
           Get in touch to discuss how we can collaborate.
         </p>
         <div class="flex justify-center">
-          <a
-            href="/get-in-touch"
-            class="inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded text-lg"
+          <router-link
+            to="/get-in-touch"
+            class="inline-flex text-white bg-green-600 border-0 py-2 px-6 hover:bg-green-700 rounded text-lg"
           >
             Set up a meeting
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -34,47 +36,31 @@
       </div>
     </section>
 
-    <section class="mb-32 px-5 mx-auto">
-      <div class="flex flex-wrap -m-4">
-        <div
-          class="overflow-hidden shadow-lg h-90 md:w-1/3 px-12 my-12 cursor-pointer m-auto"
-          v-for="i in [1, 2, 3, 4, 5]"
-          :key="i"
+    <section class="md:mt-24 px-5 mx-auto">
+      <h1 class="text-3xl font-bold text-white mb-8">
+        Latest Articles
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="far"
+          data-icon="feather"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          class="w-6 inline-block"
         >
-          <a href="#" class="w-full block h-full">
-            <img
-              alt="blog photo"
-              src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-              class="max-h-40 w-full object-cover rounded-t-lg"
-            />
-            <div class="bg-white dark:bg-gray-800 w-full p-4 rounded-b-lg">
-              <p class="text-indigo-500 text-md font-medium">Article</p>
-              <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
-                Supercharged !
-              </p>
-              <p class="text-gray-400 dark:text-gray-300 font-light text-md">
-                The new supercar is here, 543 cv and 140 000$. This is best
-                racing GT about 7 years on...
-              </p>
-              <div class="flex flex-wrap justify-starts items-center mt-4">
-                <div
-                  class="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl"
-                >
-                  #Car
-                </div>
-                <div
-                  class="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl"
-                >
-                  #Money
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+          <path
+            fill="currentColor"
+            d="M467.1 44.9C438.24 16.04 401.59 0 361.59 0c-46.7 0-97.98 21.85-146.78 70.66l-85.75 85.76C54 231.47 56.69 352.92 72.69 405.37L7.03 471.03c-9.37 9.37-9.37 24.57 0 33.94 9.37 9.37 24.57 9.37 33.94 0l65.6-65.6c17.44 5.3 42.43 9.15 70.88 9.15 57.19 0 128.04-15.48 178.13-65.57l85.76-85.75c90.61-90.62 88.32-189.75 25.76-252.3zM147.37 398.57L193.94 352h124.12c-44.62 41.83-106.87 48.46-140.61 48.46-11.41.01-21.29-.81-30.08-1.89zM350.58 320H225.94l64-64h123.81c-2.23 2.4-4.01 4.83-6.39 7.21L350.58 320zm88.31-96H321.94l22.51-22.51c9.37-9.37 9.37-24.57 0-33.94-9.37-9.37-24.57-9.37-33.94 0l-197 197c-5.27-45.97-.29-124.34 49.52-174.15 0 0 18.71-18.71 85.75-85.76 37.02-37.02 76.03-56.58 112.8-56.58 26.63 0 51.37 10.66 71.53 30.82 39.17 39.16 40.02 92.25 5.78 145.12z"
+          ></path>
+        </svg>
+      </h1>
+      <div class="flex flex-wrap -m-4">
+        <Article v-for="i in [1, 2, 3, 4, 5]" :key="i" />
       </div>
     </section>
 
-    <section class="mb-32">
+    <section class="md:mt-24 mt-12">
       <div
         class="relative px-4 py-6 overflow-hidden sm:px-6 sm:py-8 lg:p-12 xl:p-16"
       >
