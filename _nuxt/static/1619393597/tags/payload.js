@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags", {data:[{tags:["tips","npm","linux","macOS","other"]}],fetch:{},mutations:void 0});
