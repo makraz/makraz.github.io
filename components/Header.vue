@@ -4,7 +4,7 @@
   >
     <router-link to="/" class="flex title-font font-medium items-center">
       <img
-        src="/logo.png"
+        src="/makraz-logo.png"
         alt="Hamza MAKRAZ"
         width="176"
         height="65"

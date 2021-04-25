@@ -4,9 +4,9 @@
   >
     <router-link :to="article.path" class="w-full block h-full">
       <img
-        alt="blog photo"
-        src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-        class="max-h-40 w-full object-cover rounded-t-lg"
+        :src="article.img"
+        :alt="article.alt"
+        class="max-h-40 w-full object-stretch rounded-t-lg"
       />
       <div class="bg-white dark:bg-gray-800 w-full p-4 rounded-b-lg">
         <!-- <p class="text-indigo-500 text-md font-medium">Article</p> -->

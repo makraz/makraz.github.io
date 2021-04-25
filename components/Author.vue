@@ -1,11 +1,7 @@
 <template>
-  <div>
-    <img :src="author.image" />
-    <div>
-      <h4>Author</h4>
-      <p>{{ author.name }}</p>
-      <p>{{ author.bio }}</p>
-    </div>
+  <div class="flex">
+    <span class="my-auto font-bold">{{ author.name }}</span>
+    <img :src="author.image" :alt="author.name" width="40" height="40" class="ml-2" />
   </div>
 </template>
 

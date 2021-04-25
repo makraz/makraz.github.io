@@ -56,7 +56,11 @@
         </svg>
       </h1>
       <div class="flex flex-wrap -m-4">
-        <Article v-for="i in [1, 2, 3, 4, 5]" :key="i" />
+        <Article
+          v-for="article in articles"
+          :key="article.slug"
+          :article="article"
+        />
       </div>
     </section>
 
@@ -111,9 +115,25 @@
 </template>
 
 <script>
-// green used is #059669
-// default purple used in images is #6c63ff
-export default {}
+export default {
+  async asyncData({ $content, params }) {
+    const articles = await $content('blog')
+      .only([
+        'title',
+        'description',
+        'img',
+        'slug',
+        'path',
+        'tags',
+        'author',
+        'createdAt',
+      ])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+
+    return { articles }
+  },
+}
 </script>
 
 <style></style>

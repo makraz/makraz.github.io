@@ -5,19 +5,18 @@
     >
       <p class="text-gray-400 text-sm text-center sm:text-left">
         © 2021
-        <a href="https://www.makraz.com">Makraz.com</a> —
-        <a
-          href="https://twitter.com/h_makraz"
-          class="text-gray-500 ml-1"
-          rel="noopener noreferrer"
-          target="_blank"
-          >@h_makraz</a
-        >
+        <a href="https://www.makraz.com">Makraz.com</a>
       </p>
       <span
         class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
       >
-        <a href="" class="text-gray-400">
+        <a
+          href="https://twitter.com/h_makraz"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener"
+          class="text-gray-400"
+        >
           <svg
             fill="currentColor"
             stroke-linecap="round"
@@ -31,7 +30,13 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-400">
+        <a
+          href="https://twitter.com/h_makraz"
+          aria-label="Twitter"
+          target="_blank"
+          rel="noopener"
+          class="ml-3 text-gray-400"
+        >
           <svg
             fill="currentColor"
             stroke-linecap="round"
@@ -45,7 +50,13 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-400">
+        <a
+          href="https://twitter.com/h_makraz"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener"
+          class="ml-3 text-gray-400"
+        >
           <svg
             fill="none"
             stroke="currentColor"
@@ -61,7 +72,13 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-400">
+        <a
+          href="https://twitter.com/h_makraz"
+          aria-label="Linkedin"
+          target="_blank"
+          rel="noopener"
+          class="ml-3 text-gray-400"
+        >
           <svg
             fill="currentColor"
             stroke="currentColor"

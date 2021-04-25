@@ -1,14 +1,33 @@
 <template>
-  <div class="max-w-screen-xl mt-16 mx-auto">
+  <div class="max-w-screen-xl mt-16 px-5 mx-auto">
     <article>
-      <h1>{{ article.title }}</h1>
-      <p>{{ article.description }}</p>
-      <img :src="article.img" :alt="article.alt" />
-      <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+      <h1 class="text-3xl font-extrabold text-white">
+        {{ article.title }}
+      </h1>
+
+      <div class="flex my-3 mb-5">
+        <p class="my-auto">{{ article.createdAt | formatDate }} by&nbsp;</p>
+        <Author :author="article.author" class="" />
+      </div>
+
+      <div class="aspect-w-16 aspect-h-9 mb-12">
+        <img
+          :src="article.img"
+          :alt="article.alt"
+          width="512"
+          height="512"
+          class="w-full md:w-1/3 mx-auto"
+        />
+      </div>
 
       <nuxt-content :document="article" />
 
-      <Author :author="article.author" />
+      <div
+        v-if="article.updatedAt !== undefined && article.updatedAt.length"
+        class="my-12"
+      >
+        Article last updated: {{ article.updatedAt | formatDate }}
+      </div>
 
       <prev-next :prev="prev" :next="next" />
     </article>
@@ -64,12 +83,6 @@ export default {
       ],
     }
   },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
-    },
-  },
   computed: {
     meta() {
       const metaData = {
@@ -81,8 +94,32 @@ export default {
       }
       return getSiteMeta(metaData)
     },
+    methods: {},
   },
 }
 </script>
 
-<style></style>
+<style>
+.nuxt-content h2 {
+  @apply mt-12 mb-6 text-2xl font-bold text-white;
+}
+
+.nuxt-content > ul {
+  @apply list-disc list-inside;
+}
+
+.nuxt-content > ul > li > ul {
+  @apply mb-5;
+}
+
+.nuxt-content ul ul {
+  @apply ml-6 list-inside;
+  list-style-type: square;
+}
+
+.nuxt-content a {
+  @apply font-semibold underline;
+  text-decoration-color: #059669;
+  text-decoration-style: wavy;
+}
+</style>
