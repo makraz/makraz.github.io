@@ -78,7 +78,7 @@ export default {
         {
           hid: 'canonical',
           rel: 'canonical',
-          href: this.article.path,
+          href: href: 'https://www.makraz.com' + this.article.path,
         },
       ],
     }
