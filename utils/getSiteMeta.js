@@ -2,7 +2,7 @@ const type = 'website'
 const url = 'https://www.makraz.com'
 const title = 'Hamza Makraz | Software Engineer'
 const description =
-  'Articles focused on the beautiful art of landscape painting.'
+  'Hamza Makraz Software Engineer // Consultant, mostly focused on PHP stack and mainly Symfony ecosystem.'
 const mainImage = '/a-lovely-image.png'
 
 export default (meta) => {

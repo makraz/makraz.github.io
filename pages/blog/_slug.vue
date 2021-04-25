@@ -78,7 +78,7 @@ export default {
         {
           hid: 'canonical',
           rel: 'canonical',
-          href: href: 'https://www.makraz.com' + this.article.path,
+          href: `https://www.makraz.com${this.article.path}`,
         },
       ],
     }
@@ -89,7 +89,7 @@ export default {
         type: 'article',
         title: this.article.title,
         description: this.article.description,
-        url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+        url: `https://www.makraz.com${this.article.path}`,
         mainImage: this.article.image,
       }
       return getSiteMeta(metaData)

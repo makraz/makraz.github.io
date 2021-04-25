@@ -8,17 +8,20 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
       lang: 'en-US',
     },
-    title: 'makraz.com',
+    title: 'Hamza Makraz Software Engineer // Consultant',
     meta: [
       { charset: 'utf-8' },
       // { name: 'HandheldFriendly', content: 'True' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       ...meta,
     ],
     link: [
@@ -67,6 +70,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+    },
+    meta: {
+      theme_color: '#059669',
     },
   },
 

@@ -32,6 +32,8 @@
           class="object-cover object-center rounded"
           alt="hero"
           src="undraw_Code_review_re_woeb.svg"
+          width="512"
+          height="512"
         />
       </div>
     </section>
@@ -81,8 +83,8 @@
             <form class="flex w-full max-w-sm space-x-3">
               <div class="relative">
                 <input
-                  type="text"
                   id='"form-subscribe-Subscribe'
+                  type="text"
                   class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent"
                   placeholder="Email"
                 />
