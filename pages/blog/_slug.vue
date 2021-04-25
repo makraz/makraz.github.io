@@ -122,4 +122,8 @@ export default {
   text-decoration-color: #059669;
   text-decoration-style: wavy;
 }
+
+.nuxt-content blockquote {
+  @apply bg-gray-500 text-white ml-6 border-l-8 border-gray-300 px-4;
+}
 </style>

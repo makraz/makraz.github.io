@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-xl mt-16 mx-auto">
     <section
-      class="mx-auto flex px-5 md:flex-row flex-col-reverse flex-col items-center"
+      class="mx-auto flex px-5 sm:px-0 md:flex-row flex-col-reverse flex-col items-center"
     >
       <div
         class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:flex-grow md:items-start md:text-left mt-12 md:mt-0 mb-16 md:mb-0 items-center text-center"
@@ -21,7 +21,7 @@
         <div class="flex justify-center">
           <router-link
             to="/get-in-touch"
-            class="inline-flex text-white bg-green-600 border-0 py-2 px-6 hover:bg-green-700 rounded text-lg"
+            class="inline-flex text-white bg-green-700 border-0 py-2 px-6 hover:bg-green-800 rounded text-lg"
           >
             Set up a meeting
           </router-link>
@@ -90,7 +90,7 @@
                 />
               </div>
               <button
-                class="flex-shrink-0 px-4 py-2 text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded text-lg"
+                class="flex-shrink-0 px-4 py-2 text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg"
                 type="submit"
               >
                 Subscribe

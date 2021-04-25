@@ -6,9 +6,9 @@
       <img
         src="/makraz-logo.png"
         alt="Hamza MAKRAZ"
-        width="176"
+        width="128"
         height="65"
-        class="text-white bg-transparent p-6"
+        class="text-white bg-transparent pt-6"
       />
     </router-link>
     <nav class="ml-auto">
@@ -53,7 +53,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/get-in-touch"
-              class="bg-transparent text-green-400 font-semibold py-2 px-4 border-2 border-green-400 transition transition-all duration-300 rounded-lg hover:border-transparent hover:bg-green-400 hover:text-white get-in-touch text-base sm:text-base"
+              class="bg-transparent text-green-700 font-semibold py-2 px-4 border-2 border-green-700 transition transition-all duration-300 rounded-lg hover:border-transparent hover:bg-green-700 hover:text-white get-in-touch text-base sm:text-base"
               >Get in touch</router-link
             >
           </li>

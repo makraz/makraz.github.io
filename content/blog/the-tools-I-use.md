@@ -3,10 +3,11 @@ title: The tools I use
 slug: the-tools-I-use
 path: https://www.makraz.com/blog/the-tools-I-use
 githubUrl: https://github.com/makraz/makraz.github.io/blob/master/content/blog/the-tools-I-use.md
-description: 'One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use.'
+description: One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use.
 
 img: /undraw_feeling_proud_qne1.svg
-alt: my first blog post
+alt: the-tools-I-use
+
 tags: [other]
 
 author:
@@ -15,8 +16,8 @@ author:
   image: /Hamza-Makraz.png
 
 seo:
-  title: 'Hello'
-  description: 'Empower your NuxtJS application.'
+  title: The tools I use
+  description: One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use.
 
 createdAt: '2020-06-22T10:58:51.640Z'
 updatedAt: '2020-06-22T10:59:27.863Z'
@@ -48,7 +49,7 @@ One of the most questions people ask me is, what IDE, theme, font, etc I use. So
 
 ## Backup Strategy
 
-I'm still improving my a Backup strategy, however I use the follows:
+I'm still improving my Backup strategy, however I use the following:
 
 - I backup my entire computer locally to a Time Machine on a [G-DRIVE Mobile SSD](https://shop.westerndigital.com/products/portable-drives/g-technology-g-drive-mobile-usb-3-1-ssd)
 - I still use [Dropbox](https://www.dropbox.com) and [Google Drive](https://drive.google.com) for backuping a some files.
@@ -61,4 +62,3 @@ I'm still improving my a Backup strategy, however I use the follows:
 - My webcam is a [Logitech HD Pro c920](https://www.logitech.com/en-us/products/webcams/c920-pro-hd-webcam.960-000764.html)
 - My keybowrd is a [Keychron K2 Wireless Mechanical Keyboard (Version 2) RGB Backlight Aluminum Frame / Brown Switch](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard) and my mouse is a [Logitech MX Anywhere 2](https://www.amazon.com/Logitech-Anywhere-Wireless-Mouse-Rechargeable/dp/B075Y8ZVBB)
 - Everything — Monitor, Ethernet, Hard Drive, and Webcam are plugged in via a single USB cable and piped into my [TYPE-C MULTI-PORT ADAPTER](https://satechi.net/products/type-c-multi-port-adapter-with-ethernet-v2?variant=45020091145)
-
