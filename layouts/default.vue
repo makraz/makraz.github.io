@@ -8,6 +8,19 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.makraz.com' + this.$route.path,
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style></style>
