@@ -29,7 +29,7 @@
         Article last updated: {{ article.updatedAt | formatDate }}
       </div>
 
-      <prev-next :prev="prev" :next="next" />
+      <prev-next :prev="prev" :next="next" class="mb-12" />
     </article>
   </div>
 </template>

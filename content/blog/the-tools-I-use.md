@@ -13,7 +13,7 @@ tags: [other]
 author:
   name: Hamza Makraz
   bio: Software Engineer @ Coddict
-  image: /Hamza-Makraz.png
+  image: /Author-Hamza-Makraz.png
 
 seo:
   title: The tools I use

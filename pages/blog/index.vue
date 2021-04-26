@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-screen-xl mt-12 mx-auto">
-    <section class="px-5 mx-auto">
+  <div class="w-full mt-12">
+    <section class="px-5">
       <h1 class="text-3xl font-bold text-white mb-8">
         Articles
         <svg
@@ -19,7 +19,7 @@
           ></path>
         </svg>
       </h1>
-      <div class="flex flex-wrap -m-4">
+      <div class="flex flex-wrap justify-around">
         <Article
           v-for="article in articles"
           :key="article.slug"

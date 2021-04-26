@@ -1,35 +1,29 @@
 <template>
-  <div class="max-w-screen-xl mt-12 mx-auto">
+  <div class="mt-12 mx-auto">
     <section class="text-gray-400 bg-gray-900 body-font">
       <div class="mx-auto flex px-5 items-center justify-center flex-col">
         <img
-          class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+          class="mb-10 w-64 object-cover object-center rounded"
           alt="hero"
-          src="https://dummyimage.com/720x600"
+          src="/Hamza-Makraz.png"
         />
-        <div class="text-center lg:w-2/3 w-full">
-          <h1
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
-          >
-            Microdosing synth tattooed vexillologist
-          </h1>
-          <p class="leading-relaxed mb-8">
-            Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-            tousled. Chambray dreamcatcher trust fund, kitsch vice godard
-            disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
-            Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo
-            booth af fingerstache pitchfork.
+        <div class="w-full">
+          <p class="mb-8 leading-relaxed">
+            As a passionate Software Engineer, I create amazing websites and web
+            apps to make the internet a better place.
+            <br />
+            I am 28 years old and have been a web developer for as long as I can
+            think. I use code not only to do my day-to-day job, but also to
+            solve everyday problems I come across.
+            <br />
+            When I am not writing code I love to spend time with my family at
+            home in Marrakesh or traveling around the world.
           </p>
-          <div class="flex justify-center">
+
+          <div class="w-full flex justify-center">
             <router-link
               to="/get-in-touch"
-              class="text-white bg-green-600 border-0 py-2 px-6 hover:bg-green-700 rounded text-lg"
-            >
-              Set up a meeting
-            </router-link>
-            <router-link
-              to="/get-in-touch"
-              class="ml-6 text-white bg-transparent border-2 border-red-600 py-2 px-6 hover:border-transparent hover:bg-red-700 rounded text-lg"
+              class="py-2 px-6 text-white bg-transparent hover:bg-red-700 border-2 border-red-600 hover:border-transparent rounded text-lg"
             >
               My Resume
             </router-link>

@@ -1,6 +1,6 @@
 <template>
   <header
-    class="max-w-screen-xl mx-auto flex flex-wrap flex-col md:flex-row items-center text-white font-bold"
+    class="flex flex-wrap flex-col md:flex-row justify-around items-center text-white font-bold"
   >
     <router-link to="/" class="flex title-font font-medium items-center">
       <img
@@ -11,8 +11,8 @@
         class="text-white bg-transparent pt-6"
       />
     </router-link>
-    <nav class="ml-auto">
-      <div class="hidden md:flex flex-col sm:flex-row items-center">
+    <nav class="items-center">
+      <div class="hidden md:flex flex-col sm:flex-row">
         <ul
           class="top-navigation items-center flex-wrap space-x-4 sm:space-x-6 sm:mt-0 w-full items-center justify-end"
         >

@@ -1,5 +1,5 @@
 <template>
-  <footer class="mx-auto mt-12 mb-20 md:mb-0 bg-gray-800 bg-opacity-75">
+  <footer class="w-full mx-auto mb-40 md:mb-0 bg-gray-800 bg-opacity-75">
     <div
       class="max-w-screen-xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
     >
@@ -11,7 +11,7 @@
         class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
       >
         <a
-          href="https://twitter.com/h_makraz"
+          href="https://www.facebook.com/h.makraz"
           aria-label="Facebook"
           target="_blank"
           rel="noopener"
@@ -51,7 +51,7 @@
           </svg>
         </a>
         <a
-          href="https://twitter.com/h_makraz"
+          href="https://www.instagram.com/h_makraz/"
           aria-label="Instagram"
           target="_blank"
           rel="noopener"
@@ -73,7 +73,7 @@
           </svg>
         </a>
         <a
-          href="https://twitter.com/h_makraz"
+          href="https://www.linkedin.com/in/hamza-makraz/"
           aria-label="Linkedin"
           target="_blank"
           rel="noopener"

@@ -1,6 +1,6 @@
 <template>
   <article
-    class="w-full max-w-xs px-4 sm:w-1/2 sm:px-2 md:w-1/3 md:px-0 cursor-pointer mx-auto my-6 sm:my-0"
+    class="w-full max-w-xs px-4 sm:w-1/2 sm:px-2 md:w-1/3 md:px-0 cursor-pointer my-6 sm:my-0"
   >
     <router-link :to="article.path" class="w-full block h-full">
       <img

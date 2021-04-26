@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-xl mt-16 mx-auto">
+  <div class="mt-16">
     <section
-      class="mx-auto flex px-5 sm:px-0 md:flex-row flex-col-reverse flex-col items-center"
+      class="flex px-5 sm:px-0 md:flex-row flex-col-reverse flex-col items-center"
     >
       <div
         class="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:flex-grow md:items-start md:text-left mt-12 md:mt-0 mb-16 md:mb-0 items-center text-center"
@@ -57,7 +57,7 @@
           ></path>
         </svg>
       </h1>
-      <div class="flex flex-wrap -m-4">
+      <div class="flex flex-wrap justify-around">
         <Article
           v-for="article in articles"
           :key="article.slug"
@@ -131,6 +131,7 @@ export default {
         'createdAt',
       ])
       .sortBy('createdAt', 'asc')
+      .limit(3)
       .fetch()
 
     return { articles }

@@ -12,7 +12,7 @@ tags: ['tips', 'npm', 'linux', 'macOS']
 author:
   name: Hamza Makraz
   bio: Software Engineer @ Coddict
-  image: /Hamza-Makraz.png
+  image: /Author-Hamza-Makraz.png
 
 seo:
   title: Install packages globally without sudo on Linux / MacOS
