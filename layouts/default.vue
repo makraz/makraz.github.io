@@ -12,6 +12,6 @@
 
 <style>
 body {
-  @apply text-gray-400 bg-gray-900;
+  @apply text-gray-400 bg-black;
 }
 </style>

@@ -19,7 +19,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/"
-              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:border-green-400 text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
             >
               Home
             </router-link>
@@ -27,7 +27,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/blog"
-              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:border-green-400 text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
             >
               Blog
             </router-link>
@@ -35,7 +35,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/about"
-              class="border-b-2 font-bold border-transparent border-b-transparent text-white hover:border-green-400 text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
             >
               About
             </router-link>
@@ -44,7 +44,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/talks"
-              class="border-b-2 font-bold border-transparent border-b-transparent text-white hover:border-green-400 text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
             >
               Talks
             </router-link>
@@ -53,7 +53,7 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/get-in-touch"
-              class="bg-transparent text-green-700 font-semibold py-2 px-4 border-2 border-green-700 transition transition-all duration-300 rounded-lg hover:border-transparent hover:bg-green-700 hover:text-white get-in-touch text-base sm:text-base"
+              class="bg-transparent text-yellow font-semibold py-2 px-4 border-2 border-yellow transition transition-all duration-300 rounded-lg hover:border-transparent hover:bg-yellow hover:text-black get-in-touch text-base sm:text-base"
               >Get in touch</router-link
             >
           </li>
@@ -188,13 +188,13 @@
         </li>
       </ul>
     </nav>
-    <!-- 
+    <!--
     <nav class="md:ml-auto flex flex-wrap">
       <router-link to="/" class="mr-5 hover:text-gray-400">Home</router-link>
       <router-link to="/about" class="mr-5 hover:text-gray-400">About</router-link>
       <router-link to="/blog" class="mr-5 hover:text-gray-400">Blog</router-link>
       <router-link to="/talks" class="mr-5 hover:text-gray-400">Talks</router-link>
-      <router-link to="/get-in-touch" class="mr-5 hover:text-green-400">Get in touch</router-link>
+      <router-link to="/get-in-touch" class="mr-5 hover:text-yellow-dark">Get in touch</router-link>
     </nav>
 -->
   </header>
