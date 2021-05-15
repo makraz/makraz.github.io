@@ -19,8 +19,8 @@ seo:
   title: The tools I use
   description: One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use.
 
-createdAt: '2020-06-22T10:58:51.640Z'
-updatedAt: '2020-06-22T10:59:27.863Z'
+createdAt: '2021-04-22T10:58:51.640Z'
+updatedAt: '2021-04-26T01:39:27.863Z'
 ---
 
 One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use. This page is inspired by Wes Bos' uses page.
