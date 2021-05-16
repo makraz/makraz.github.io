@@ -3,6 +3,7 @@ const url = 'https://www.makraz.com'
 const title = 'Hamza Makraz | Software Engineer'
 const description =
   'Hamza Makraz Software Engineer // Consultant, mostly focused on PHP stack and mainly Symfony ecosystem.'
+const author = 'Hamza Makraz'
 const mainImage = `${url}/Hamza-Makraz.png`
 
 export default (meta) => {
@@ -11,6 +12,12 @@ export default (meta) => {
       hid: 'description',
       name: 'description',
       content: (meta && meta.description) || description,
+    },
+
+    {
+      hid: 'author',
+      name: 'author',
+      content: (meta && meta.author) || author,
     },
 
     {
@@ -32,6 +39,11 @@ export default (meta) => {
       hid: 'og:description',
       property: 'og:description',
       content: (meta && meta.description) || description,
+    },
+    {
+      hid: 'og:type',
+      property: 'og:type',
+      content: (meta && meta.type) || type,
     },
     {
       hid: 'og:image',

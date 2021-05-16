@@ -278,7 +278,7 @@ export default {
       .sortBy('createdAt', 'desc')
       .limit(3)
       .fetch()
-    console.log(articles)
+
     return { articles }
   },
 }
