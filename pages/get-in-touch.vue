@@ -67,7 +67,7 @@
               </svg>
             </a>
             <a
-              href="https://twitter.com/h_makraz"
+              href="https://www.facebook.com/h.makraz/"
               aria-label="Facebook"
               target="_blank"
               rel="noopener"
@@ -93,7 +93,7 @@
               />
             </a>
             <a
-              href="https://twitter.com/h_makraz"
+              href="https://www.instagram.com/h_makraz"
               aria-label="Instagram"
               target="_blank"
               rel="noopener"
@@ -106,7 +106,7 @@
               />
             </a>
             <a
-              href="https://twitter.com/h_makraz"
+              href="https://www.linkedin.com/in/hamza-makraz"
               aria-label="Linkedin"
               target="_blank"
               rel="noopener"
