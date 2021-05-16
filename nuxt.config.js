@@ -44,6 +44,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-analytics.nuxtjs.org/
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -109,5 +111,10 @@ export default {
   // Router middlewares
   router: {
     middleware: 'maintenance',
+  },
+
+  // Build Configuration: https://google-analytics.nuxtjs.org/setup
+  googleAnalytics: {
+    id: 'UA-120924762-1',
   },
 }
