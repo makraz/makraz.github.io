@@ -1,6 +1,13 @@
 <template>
   <header
-    class="flex flex-wrap flex-col md:flex-row justify-around items-center text-white font-bold"
+    class="
+      flex flex-wrap flex-col
+      md:flex-row
+      justify-around
+      items-center
+      text-white
+      font-bold
+    "
   >
     <router-link to="/" class="flex title-font font-medium items-center">
       <img
@@ -14,28 +21,59 @@
     <nav class="items-center">
       <div class="hidden md:flex flex-col sm:flex-row">
         <ul
-          class="top-navigation items-center flex-wrap space-x-4 sm:space-x-6 sm:mt-0 w-full items-center justify-end"
+          class="
+            top-navigation
+            items-center
+            flex-wrap
+            space-x-4
+            sm:space-x-6
+            sm:mt-0
+            w-full
+            items-center
+            justify-end
+          "
         >
           <li class="hidden sm:inline-block">
             <router-link
               to="/"
-              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="
+                blog
+                border-b-2
+                font-bold
+                border-transparent border-b-transparent
+                text-white
+                hover:text-yellow-dark
+                text-base
+                transition-all transition-duration-300 transition
+                duration-500
+                ease-in-out
+              "
             >
               Home
             </router-link>
           </li>
-          <li class="hidden sm:inline-block">
-            <router-link
-              to="/blog"
-              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
-            >
-              Blog
-            </router-link>
-          </li>
+          <!--          <li class="hidden sm:inline-block">-->
+          <!--            <router-link-->
+          <!--              to="/blog"-->
+          <!--              class="blog border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"-->
+          <!--            >-->
+          <!--              Blog-->
+          <!--            </router-link>-->
+          <!--          </li>-->
           <li class="hidden sm:inline-block">
             <router-link
               to="/about"
-              class="border-b-2 font-bold border-transparent border-b-transparent text-white hover:text-yellow-dark text-base transition-all transition-duration-300 transition duration-500 ease-in-out"
+              class="
+                border-b-2
+                font-bold
+                border-transparent border-b-transparent
+                text-white
+                hover:text-yellow-dark
+                text-base
+                transition-all transition-duration-300 transition
+                duration-500
+                ease-in-out
+              "
             >
               About
             </router-link>
@@ -53,21 +91,59 @@
           <li class="hidden sm:inline-block">
             <router-link
               to="/get-in-touch"
-              class="bg-transparent text-yellow font-semibold py-2 px-4 border-2 border-yellow transition transition-all duration-300 rounded-lg hover:border-transparent hover:bg-yellow hover:text-black get-in-touch text-base sm:text-base"
+              class="
+                bg-transparent
+                text-yellow
+                font-semibold
+                py-2
+                px-4
+                border-2 border-yellow
+                transition transition-all
+                duration-300
+                rounded-lg
+                hover:border-transparent
+                hover:bg-yellow
+                hover:text-black
+                get-in-touch
+                text-base
+                sm:text-base
+              "
               >Get in touch</router-link
             >
           </li>
         </ul>
       </div>
       <ul
-        class="bottom-navigation fixed bottom-0 left-0 z-20 bg-dark-elevatedSurface w-full flex items-center justify-evenly sm:hidden h-20"
+        class="
+          bottom-navigation
+          fixed
+          bottom-0
+          left-0
+          z-20
+          bg-dark-elevatedSurface
+          w-full
+          flex
+          items-center
+          justify-evenly
+          sm:hidden
+          h-20
+        "
         style="background-color: rgb(17, 24, 39)"
       >
         <li class="nav-bar-bottom-item text-white font-bold">
           <router-link
             to="/"
             aria-current="page"
-            class="nuxt-link-exact-active nuxt-link-active flex flex-col items-center justify-center flex-nowrap transition transition-all duration-500 ease-in-out"
+            class="
+              nuxt-link-exact-active nuxt-link-active
+              flex flex-col
+              items-center
+              justify-center
+              flex-nowrap
+              transition transition-all
+              duration-500
+              ease-in-out
+            "
           >
             <svg
               aria-hidden="true"
@@ -91,7 +167,16 @@
         <li class="nav-bar-bottom-item text-white font-bold">
           <router-link
             to="/blog"
-            class="blog flex flex-col items-center justify-center flex-nowrap transition transition-all duration-500 ease-in-out"
+            class="
+              blog
+              flex flex-col
+              items-center
+              justify-center
+              flex-nowrap
+              transition transition-all
+              duration-500
+              ease-in-out
+            "
           >
             <svg
               aria-hidden="true"
@@ -115,7 +200,15 @@
         <li class="nav-bar-bottom-item text-white font-bold">
           <router-link
             to="/about"
-            class="flex flex-col items-center justify-center flex-nowrap transition transition-all duration-500 ease-in-out"
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              flex-nowrap
+              transition transition-all
+              duration-500
+              ease-in-out
+            "
           >
             <svg
               aria-hidden="true"
@@ -165,7 +258,15 @@
         <li class="nav-bar-bottom-item text-white font-bold">
           <router-link
             to="/get-in-touch"
-            class="flex flex-col items-center justify-center flex-nowrap transition transition-all duration-500 ease-in-out"
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              flex-nowrap
+              transition transition-all
+              duration-500
+              ease-in-out
+            "
           >
             <svg
               aria-hidden="true"
