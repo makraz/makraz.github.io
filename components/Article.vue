@@ -1,11 +1,22 @@
 <template>
   <article
-    class="w-full max-w-xs px-4 sm:w-1/2 sm:px-2 md:w-1/3 md:px-0 cursor-pointer my-6 sm:my-0"
+    class="
+      w-full
+      max-w-xs
+      px-4
+      sm:w-1/2
+      sm:px-2
+      md:w-1/3
+      md:px-0
+      cursor-pointer
+      my-6
+      sm:my-0
+    "
   >
     <router-link :to="article.path" class="w-full block h-full">
       <img
         :src="article.img"
-        :alt="article.alt"
+        :alt="article.alt ? article.alt : article.title"
         class="w-full max-h-48 object-stretch rounded-t-lg"
         width="275"
         height="175"
@@ -18,10 +29,7 @@
         >
           {{ article.title }}
         </p>
-        <p
-          class="text-gray-400 dark:text-gray-300 font-light text-md"
-          style="min-height: 6rem"
-        >
+        <p class="text-gray-700 font-light text-md" style="min-height: 6rem">
           {{ article.description }}
         </p>
         <div
@@ -31,7 +39,16 @@
           <div
             v-for="tag in article.tags"
             :key="tag"
-            class="text-xs mr-2 mb-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl"
+            class="
+              text-xs
+              mr-2
+              mb-2
+              py-1.5
+              px-4
+              text-gray-600
+              bg-blue-100
+              rounded-2xl
+            "
           >
             # {{ tag }}
           </div>

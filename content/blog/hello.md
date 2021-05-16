@@ -16,8 +16,8 @@ seo:
     title: 'Hello'
     description: 'Empower your NuxtJS application.'
 
-createdAt:
-updatedAt:
+createdAt: '2021-04-11T10:58:51.640Z'
+updatedAt: '2021-04-26T10:59:27.863Z'
 ---
 
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
