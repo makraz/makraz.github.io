@@ -3,7 +3,7 @@ const url = 'https://www.makraz.com'
 const title = 'Hamza Makraz | Software Engineer'
 const description =
   'Hamza Makraz Software Engineer // Consultant, mostly focused on PHP stack and mainly Symfony ecosystem.'
-const mainImage = '/a-lovely-image.png'
+const mainImage = `${url}/Hamza-Makraz.png`
 
 export default (meta) => {
   return [

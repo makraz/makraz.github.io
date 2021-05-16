@@ -1,7 +1,6 @@
 import getRoutes from './utils/getRoutes'
 import getSiteMeta from './utils/getSiteMeta'
 
-const plugin = require('tailwindcss/plugin')
 const meta = getSiteMeta()
 
 export default {
