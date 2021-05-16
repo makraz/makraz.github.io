@@ -4,11 +4,12 @@ slug: the-tools-I-use
 path: https://www.makraz.com/blog/the-tools-I-use
 githubUrl: https://github.com/makraz/makraz.github.io/blob/master/content/blog/the-tools-I-use.md
 description: One of the most questions people ask me is, what IDE, theme, font, etc I use. So I decided to write up a little post about the tools I use.
-
-img: /undraw_feeling_proud_qne1.svg
-alt: the-tools-I-use
-
 tags: [other]
+draft: false
+
+img:
+  path: /undraw_feeling_proud_qne1.svg
+  alt: the-tools-I-use
 
 author:
   name: Hamza Makraz

@@ -154,16 +154,7 @@
     </section>
 
     <section class="mt-24 px-5 mx-auto">
-      <h1 class="text-3xl font-bold text-white mb-8">
-        Latest Articles
-        <img
-          class="w-6 inline-block"
-          alt="hero"
-          src="/feather.svg"
-          width="512"
-          height="512"
-        />
-      </h1>
+      <h1 class="text-3xl font-bold text-white mb-8">Latest Articles</h1>
       <div class="flex flex-wrap justify-around">
         <Article
           v-for="article in articles"
@@ -190,7 +181,8 @@
           We&#x27;ve got more coming...
         </h2>
         <p class="mt-2 max-w-xl text-base text-gray-400">
-          Want to hear from us when we add new post? Sign up for our newsletter.
+          Want to hear from us when we add new post? <br />
+          Sign up for our newsletter.
         </p>
         <form>
           <div class="sm:flex justify-start mt-6">
@@ -282,6 +274,7 @@ export default {
         'author',
         'createdAt',
       ])
+      .where({ draft: false })
       .sortBy('createdAt', 'desc')
       .limit(3)
       .fetch()

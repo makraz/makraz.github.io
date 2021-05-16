@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-24">
+  <div class="mt-20">
     <h1
       class="
         sm:ml-16
@@ -11,12 +11,14 @@
     >
       Let's talk 💬
     </h1>
-    <section class="flex mt-24 mx-auto px-5 md:flex-row flex-col items-center">
+    <section
+      class="flex mt-16 mb-8 mx-auto px-5 md:flex-row flex-col items-center"
+    >
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <img
           class="object-cover object-center rounded"
           alt="hero"
-          src="undraw_conversation_h12g.svg"
+          src="/undraw_conversation_h12g.svg"
         />
       </div>
       <div

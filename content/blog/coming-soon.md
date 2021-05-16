@@ -3,10 +3,12 @@ title: Coming soon
 slug: '#'
 path: '#'
 description: 'Coming soon.'
-
-img: undraw_under_construction_46pa.svg
-alt: Coming soon
 tags: [other]
+draft: false
+
+img:
+  path: /undraw_under_construction_46pa.svg
+  alt: Coming soon
 
 author:
   name: Hamza Makraz

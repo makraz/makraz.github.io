@@ -15,14 +15,14 @@
   >
     <router-link :to="article.path" class="w-full block h-full">
       <img
-        :src="article.img"
-        :alt="article.alt ? article.alt : article.title"
-        class="w-full max-h-48 object-stretch rounded-t-lg"
+        :src="article.img.path"
+        :alt="article.img.alt ? article.img.alt : article.title"
+        class="w-full object-contain rounded-t-lg"
+        style="max-height: 10rem"
         width="275"
         height="175"
       />
       <div class="bg-white dark:bg-gray-800 w-full p-4 rounded-b-lg">
-        <!-- <p class="text-indigo-500 text-md font-medium">Article</p> -->
         <p
           class="text-gray-800 text-white text-xl font-medium mb-2"
           style="min-height: 4rem"
@@ -34,21 +34,12 @@
         </p>
         <div
           class="flex flex-wrap justify-starts items-center mt-4"
-          style="min-height: 2rem"
+          style="min-height: 4rem"
         >
           <div
             v-for="tag in article.tags"
             :key="tag"
-            class="
-              text-xs
-              mr-2
-              mb-2
-              py-1.5
-              px-4
-              text-gray-600
-              bg-blue-100
-              rounded-2xl
-            "
+            class="m-1 p-2 text-xs text-gray-600 bg-blue-100 rounded-2xl"
           >
             # {{ tag }}
           </div>

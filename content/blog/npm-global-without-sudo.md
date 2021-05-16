@@ -3,11 +3,12 @@ title: Install packages globally without sudo on Linux / MacOS
 slug: npm-global-without-sudo
 path: https://www.makraz.com/blog/npm-global-without-sudo
 description: Install packages globally without sudo on Linux / MacOS
-
-img: /logo_of_npm.png
-alt: my first blog post
-
 tags: ['tips', 'npm', 'linux', 'macOS']
+draft: false
+
+img:
+  path: /logo_of_npm.png
+  alt: NPM Logo
 
 author:
   name: Hamza Makraz
