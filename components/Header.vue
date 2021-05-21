@@ -10,10 +10,8 @@
     "
   >
     <router-link to="/" class="flex title-font font-medium items-center">
-      <nuxt-img
-        provider="static"
-        format="webp"
-        src="/makraz.png"
+      <img
+        src="~/assets/makraz.png"
         alt="Hamza MAKRAZ"
         width="128"
         height="47"

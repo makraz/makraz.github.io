@@ -15,10 +15,8 @@
         href="/"
         class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
       >
-        <nuxt-img
-          provider="static"
-          format="webp"
-          src="/makraz.png"
+        <img
+          src="~/assets/makraz.png"
           alt="MAKRAZ"
           width="128"
           height="47"
