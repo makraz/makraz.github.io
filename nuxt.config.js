@@ -56,6 +56,8 @@ export default {
     '@nuxt/content',
     // https://sitemap.nuxtjs.org
     '@nuxtjs/sitemap',
+    // https://github.com/nuxt-community/gtm-module
+    '@nuxtjs/gtm',
   ],
 
   hooks: {
@@ -116,5 +118,10 @@ export default {
   // Build Configuration: https://google-analytics.nuxtjs.org/setup
   googleAnalytics: {
     id: 'UA-120924762-1',
+  },
+
+  // Build Configuration: https://github.com/nuxt-community/gtm-module
+  gtm: {
+    id: 'GTM-WG7GDCD',
   },
 }
