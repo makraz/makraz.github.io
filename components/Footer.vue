@@ -34,6 +34,8 @@
           <img
             src="/facebook.svg"
             alt="Facebook Logo"
+            width="1.25rem"
+            height="1.25rem"
             class="w-5 h-5 text-gray-400"
           />
         </a>
@@ -47,6 +49,8 @@
           <img
             src="/twitter.svg"
             alt="Twitter Logo"
+            width="1.25rem"
+            height="1.25rem"
             class="w-5 h-5 text-gray-400"
           />
         </a>
@@ -60,6 +64,8 @@
           <img
             src="/instagram.svg"
             alt="Instagram Logo"
+            width="1.25rem"
+            height="1.25rem"
             class="w-5 h-5 text-gray-400"
           />
         </a>
@@ -73,6 +79,8 @@
           <img
             src="/linkedin.svg"
             alt="Linkedin Logo"
+            width="1.25rem"
+            height="1.25rem"
             class="w-5 h-5 text-gray-400"
           />
         </a>
