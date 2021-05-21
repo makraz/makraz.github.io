@@ -15,7 +15,7 @@
         alt="Hamza MAKRAZ"
         width="128"
         height="47"
-        class="w-full text-white bg-transparent pt-6"
+        class="bg-transparent"
         style="width: 128px; height: 47px"
       />
     </router-link>
