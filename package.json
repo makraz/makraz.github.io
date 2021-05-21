@@ -10,7 +10,6 @@
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js"
   },
-  "dependencies": {},
   "devDependencies": {
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/eslint-config": "^6.0.0",
