@@ -44,8 +44,10 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // https://google-analytics.nuxtjs.org/
+    // https://google-analytics.nuxtjs.org
     '@nuxtjs/google-analytics',
+    // https://image.nuxtjs.org
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -101,6 +103,11 @@ export default {
         aspectRatio: ['responsive', 'hover'],
       },
     },
+  },
+
+  // Build Configuration: https://image.nuxtjs.org/setup
+  image: {
+    dir: 'assets/images',
   },
 
   sitemap: {

@@ -15,11 +15,12 @@
         href="/"
         class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
       >
-        <img
-          src="/static/makraz-logo.png"
+        <nuxt-img
+          format="webp"
+          src="/makraz.png"
           alt="MAKRAZ"
-          width="176"
-          height="65"
+          width="128"
+          height="47"
           class="text-white bg-transparent p-2 rounded-full"
         />
       </a>
