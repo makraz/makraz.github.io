@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags", {data:[{tags:["other","tips","npm","linux","macOS"],_img:{"/_ipx/makraz.png?f=webp&s=256_94":"\u002F_nuxt\u002Fimage\u002F4d93a0.webp"}}],fetch:{},mutations:void 0});
