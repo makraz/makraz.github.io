@@ -16,7 +16,7 @@
         class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
       >
         <img
-          src="/makraz-logo.png"
+          src="/static/makraz-logo.png"
           alt="MAKRAZ"
           width="176"
           height="65"
