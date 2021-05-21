@@ -46,8 +46,6 @@ export default {
     '@nuxtjs/tailwindcss',
     // https://google-analytics.nuxtjs.org
     '@nuxtjs/google-analytics',
-    // https://image.nuxtjs.org
-    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
