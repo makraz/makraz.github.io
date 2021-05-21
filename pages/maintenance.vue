@@ -21,6 +21,7 @@
           width="128"
           height="47"
           class="w-full text-white bg-transparent p-2"
+          style="width: 128px; height: 47px"
         />
       </a>
     </header>

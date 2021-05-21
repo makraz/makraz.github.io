@@ -16,6 +16,7 @@
         width="128"
         height="47"
         class="w-full text-white bg-transparent pt-6"
+        style="width: 128px; height: 47px"
       />
     </router-link>
     <nav class="items-center">
