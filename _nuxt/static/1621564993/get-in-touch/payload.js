@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/get-in-touch", {data:[{_img:{"/_ipx/makraz.png?f=webp&s=256_94":"\u002F_nuxt\u002Fimage\u002F4d93a0.webp"}}],fetch:{},mutations:void 0});
