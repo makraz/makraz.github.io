@@ -14,8 +14,8 @@
         format="webp"
         src="/makraz.png"
         alt="Hamza MAKRAZ"
-        width="128"
-        height="47"
+        width="256"
+        height="94"
         class="text-white bg-transparent pt-6"
       />
     </router-link>
