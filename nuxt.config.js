@@ -103,11 +103,6 @@ export default {
     },
   },
 
-  // Build Configuration: https://image.nuxtjs.org/setup
-  image: {
-    dir: 'assets/images',
-  },
-
   sitemap: {
     hostname: process.env.BASE_URL,
     routes() {

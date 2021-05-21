@@ -11,7 +11,7 @@
   >
     <router-link to="/" class="flex title-font font-medium items-center">
       <img
-        src="~/assets/makraz.png"
+        src="~/assets/images/makraz.png"
         alt="Hamza MAKRAZ"
         width="128"
         height="47"

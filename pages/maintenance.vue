@@ -16,7 +16,7 @@
         class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
       >
         <img
-          src="~/assets/makraz.png"
+          src="~/assets/images/makraz.png"
           alt="MAKRAZ"
           width="128"
           height="47"
