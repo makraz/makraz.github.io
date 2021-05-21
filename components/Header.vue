@@ -11,12 +11,13 @@
   >
     <router-link to="/" class="flex title-font font-medium items-center">
       <nuxt-img
+        provider="static"
         format="webp"
         src="/makraz.png"
         alt="Hamza MAKRAZ"
-        width="256"
-        height="94"
-        class="text-white bg-transparent pt-6"
+        width="128"
+        height="47"
+        class="w-full text-white bg-transparent pt-6"
       />
     </router-link>
     <nav class="items-center">
