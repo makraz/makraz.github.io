@@ -68,8 +68,8 @@
           class="object-cover object-center rounded"
           alt="hero"
           src="/undraw_Code_review_re_woeb.svg"
-          width="512"
-          height="512"
+          width="254"
+          height="165"
         />
       </div>
     </section>
